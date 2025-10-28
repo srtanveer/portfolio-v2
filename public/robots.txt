@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://srtanveer.dev/sitemap.xml
+
+# Disallow these if you have any
+Disallow: /assets/js/
+Disallow: /assets/css/
