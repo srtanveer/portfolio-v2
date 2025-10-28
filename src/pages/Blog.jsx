@@ -29,6 +29,20 @@ function Blog() {
       <Helmet>
         <title>Blog - MD. Showaib Rahman Tanveer</title>
         <meta name="description" content="Blog posts and articles by MD. Showaib Rahman Tanveer about web development, event organization, and technology" />
+        <meta name="keywords" content="Blog, Articles, Web Development, Event Organization, Technology, SRTANVEER Blog" />
+        <link rel="canonical" href="https://srtanveer.dev/blog" />
+        
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://srtanveer.dev/blog" />
+        <meta property="og:title" content="Blog - MD. Showaib Rahman Tanveer" />
+        <meta property="og:description" content="Blog posts and articles by MD. Showaib Rahman Tanveer about web development, event organization, and technology" />
+        <meta property="og:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
+        
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://srtanveer.dev/blog" />
+        <meta property="twitter:title" content="Blog - MD. Showaib Rahman Tanveer" />
+        <meta property="twitter:description" content="Blog posts and articles by MD. Showaib Rahman Tanveer about web development, event organization, and technology" />
+        <meta property="twitter:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
       </Helmet>
 
       <article className="blog active" data-page="blog">

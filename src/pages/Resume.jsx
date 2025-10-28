@@ -6,6 +6,20 @@ function Resume() {
       <Helmet>
         <title>Resume - MD. Showaib Rahman Tanveer</title>
         <meta name="description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Frontend Developer and Event Organizer" />
+        <meta name="keywords" content="Resume, CV, Education, Experience, Skills, Frontend Developer, Event Organizer, SRTANVEER" />
+        <link rel="canonical" href="https://srtanveer.dev/resume" />
+        
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://srtanveer.dev/resume" />
+        <meta property="og:title" content="Resume - MD. Showaib Rahman Tanveer" />
+        <meta property="og:description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Frontend Developer and Event Organizer" />
+        <meta property="og:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
+        
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://srtanveer.dev/resume" />
+        <meta property="twitter:title" content="Resume - MD. Showaib Rahman Tanveer" />
+        <meta property="twitter:description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Frontend Developer and Event Organizer" />
+        <meta property="twitter:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
       </Helmet>
 
       <article className="resume active" data-page="resume">
