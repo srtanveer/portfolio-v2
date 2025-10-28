@@ -38,7 +38,7 @@ function Resume() {
           <ol className="timeline-list">
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">B.Sc. in Computer Science and Engineering</h4>
-              <span>Expected 2026</span>
+              <span>Expected January, 2026</span>
               <p className="timeline-text">
                 Green University of Bangladesh — Currently pursuing a Bachelor's degree in Computer Science and Engineering 
                 with focus on software development, algorithms, and data structures.
@@ -84,7 +84,7 @@ function Resume() {
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Computer Operator</h4>
-              <span>August 2020 — Present</span>
+              <span>August 2020 — September 2025</span>
               <p className="timeline-text">
                 Faijan Solutions — Self-employed computer operator providing various digital services including 
                 documentation, design, and technical support.
