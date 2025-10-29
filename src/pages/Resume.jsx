@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import DownloadCV from '../components/DownloadCV';
 
 function Resume() {
   return (
@@ -26,6 +27,9 @@ function Resume() {
         <header>
           <h2 className="h2 article-title">Resume</h2>
         </header>
+
+        {/* Download CV Button */}
+        <DownloadCV />
 
         <section className="timeline">
           <div className="title-wrapper">

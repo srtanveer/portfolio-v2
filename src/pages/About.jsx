@@ -136,37 +136,30 @@ function About() {
           <h3 className="h3 awards-title">Awards & Honors</h3>
           <ul className="awards-list">
             <li className="award-item">
-              <h4 className="h4 award-item-title">Best Project Award</h4>
-              <p className="award-description">Integrated Design Project Poster Presentation, Fall 2024 Dept of CSE, GUB</p>
-            </li>
-            <li className="award-item">
               <h4 className="h4 award-item-title">Lead Organizer</h4>
               <p className="award-description">HackTheAI - Inter University Hackathon</p>
             </li>
             <li className="award-item">
               <h4 className="h4 award-item-title">Lead Volunteer</h4>
-              <p className="award-description">GUB CSE CARNIVAL 2024</p>
+              <p className="award-description">GUB CSE CARNIVAL 2024 & IDGC 2025</p>
+            </li>
+            <li className="award-item">
+              <h4 className="h4 award-item-title">Best Project Award</h4>
+              <p className="award-description">Integrated Design Project Poster Presentation, Fall 2024 Dept of CSE, GUB</p>
             </li>
             <li className="award-item">
               <h4 className="h4 award-item-title">Volunteer</h4>
               <p className="award-description">2024 International Conference On Sustainable Technologies For Industry 5.0 (STI 2024)</p>
             </li>
             <li className="award-item">
-              <h4 className="h4 award-item-title">Preliminary Participant</h4>
-              <p className="award-description">ICPC 2022 Asia Dhaka Regional Site online Preliminary Contest</p>
-            </li>
-            <li className="award-item">
-              <h4 className="h4 award-item-title">Executive Member</h4>
-              <p className="award-description">GUCC PC 2022-23</p>
-            </li>
-            <li className="award-item">
-              <h4 className="h4 award-item-title">Lead Volunteer</h4>
-              <p className="award-description">Inter Department Gaming Competition (IDGC 2025)</p>
-            </li>
-            <li className="award-item">
               <h4 className="h4 award-item-title">Organizer</h4>
               <p className="award-description">Inter Department Programming Competition (IDPC 2024)</p>
             </li>
+            <li className="award-item">
+              <h4 className="h4 award-item-title">Preliminary Participant</h4>
+              <p className="award-description">ICPC 2022 Asia Dhaka Regional Site online Preliminary Contest</p>
+            </li>
+            
           </ul>
         </section>
 
@@ -182,14 +175,10 @@ function About() {
               <h4 className="h4 certification-item-title">Corporate Readiness Program</h4>
               <p className="certification-description">By UTC Global Academy</p>
             </li>
-            <li className="certification-item">
+            {/* <li className="certification-item">
               <h4 className="h4 certification-item-title">Python Programming in a Pragmatic Approach</h4>
               <p className="certification-description">Workshop on Python</p>
-            </li>
-            <li className="certification-item">
-              <h4 className="h4 certification-item-title">Cholera Vaccination</h4>
-              <p className="certification-description">organized by icddr,b, 2022</p>
-            </li>
+            </li> */}
             <li className="certification-item">
               <h4 className="h4 certification-item-title">JavaScript Algorithms and Data Structures</h4>
               <p className="certification-description">issued by freeCodeCamp on July, 2020</p>
