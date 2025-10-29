@@ -149,7 +149,7 @@ function About() {
             </li>
             <li className="award-item">
               <h4 className="h4 award-item-title">Volunteer</h4>
-              <p className="award-description">2024 International Conference On Sustainable Technologies For Industry 5.0 (STI 2024)</p>
+              <p className="award-description">6th International Conference on STI 2024</p>
             </li>
             <li className="award-item">
               <h4 className="h4 award-item-title">Organizer</h4>
