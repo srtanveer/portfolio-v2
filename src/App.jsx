@@ -9,7 +9,9 @@ import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import BlogPost_AIGuiltSyndrome from './components/BlogPost_AIGuiltSyndrome';
 import './App.css';
+import './components/BlogPost.css';
 
 function App() {
   const [theme, setTheme] = useState(() => {
@@ -41,6 +43,7 @@ function App() {
               <Route path="/resume" element={<Resume />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/ai-guilt-syndrome" element={<BlogPost_AIGuiltSyndrome />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </div>

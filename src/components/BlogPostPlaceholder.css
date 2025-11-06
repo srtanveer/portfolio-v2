@@ -1,0 +1,31 @@
+/* Temporary placeholder styles for blog images */
+/* Remove this file once you have the actual images */
+
+.blog-post-banner img,
+.content-image img {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Placeholder text overlay (optional) */
+.blog-post-banner::after,
+.content-image::after {
+  content: 'Image Coming Soon';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  pointer-events: none;
+}
+
+.blog-post-banner,
+.content-image {
+  position: relative;
+}

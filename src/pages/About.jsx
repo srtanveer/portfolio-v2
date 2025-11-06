@@ -4,21 +4,21 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>MD. Showaib Rahman Tanveer - Organizer | Frontend Developer | Event Management & Web Development</title>
-        <meta name="description" content="Experienced Organizer & Frontend Developer specializing in event management, community growth, marketing, and web development. President of GUCC, skilled in React, Next.js, and team coordination." />
-        <meta name="keywords" content="Event Organizer, Project Manager, Community Builder, Frontend Developer, React Developer, Next.js Developer, Marketing Specialist, Growth Strategist, Event Management, Team Coordination, SRTANVEER, Showaib Rahman Tanveer, GUCC President, University Club Management, Web Developer Bangladesh, Tech Event Organizer, Community Growth, Dhaka Developer" />
+        <title>MD. Showaib Rahman Tanveer - Software Engineer | Organizer</title>
+        <meta name="description" content="Experienced Software Engineer & Organizer specializing in web development, event management, community growth, and marketing. President of GUCC, skilled in React, Next.js, and team coordination." />
+        <meta name="keywords" content="Software Engineer, React Developer, Next.js Developer, Web Developer, Event Organizer, Project Manager, Community Builder, Marketing Specialist, Growth Strategist, Event Management, Team Coordination, SRTANVEER, Showaib Rahman Tanveer, GUCC President, University Club Management, Web Developer Bangladesh, Tech Event Organizer, Community Growth, Dhaka Developer" />
         <link rel="canonical" href="https://srtanveer.dev/" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/" />
-        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Organizer | Frontend Developer" />
-        <meta property="og:description" content="Experienced Organizer & Frontend Developer. Expert in event management, community growth, marketing, and modern web development." />
+        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Software Engineer | Organizer" />
+        <meta property="og:description" content="Experienced Software Engineer & Organizer. Expert in modern web development, event management, community growth, and marketing." />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/" />
-        <meta property="twitter:title" content="MD Showaib Rahman Tanveer - Organizer | Frontend Developer" />
-        <meta property="twitter:description" content="Experienced Organizer & Frontend Developer. Expert in event management, community growth, marketing, and modern web development." />
+        <meta property="twitter:title" content="MD Showaib Rahman Tanveer - Software Engineer | Organizer" />
+        <meta property="twitter:description" content="Experienced Software Engineer & Organizer. Expert in modern web development, event management, community growth, and marketing." />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
       </Helmet>
 
@@ -29,18 +29,18 @@ function About() {
 
         <section className="about-text">
           <p>
-            Hey! I'm an experienced <b>Organizer and Frontend Developer</b> with a passion for bringing people together and building 
-            digital solutions. As <b>President of Green University Computer Club (GUCC)</b>, I specialize in <b>event management, 
-            community growth, marketing, and team coordination</b>. I've successfully organized major tech events including HackTheAI 
-            (Inter-University Hackathon), CSE Carnival 2024, and multiple programming competitions, managing teams and delivering 
-            exceptional experiences.
+            Hey! I'm a <b>Software Engineer and Organizer</b> with a passion for building digital solutions and bringing 
+            people together. I'm a <b>Computer Science student at Green University of Bangladesh</b> and <b>Frontend Developer Intern 
+            at Digi5 Ltd</b>, building modern web applications with React, Next.js, and Tailwind CSS. I specialize in developing 
+            responsive and scalable web applications with clean, maintainable code and modern development practices.
           </p>
           <p>
-            Beyond organizing, I'm a <b>Computer Science student at Green University of Bangladesh</b> and <b>Frontend Developer Intern 
-            at Digi5 Ltd</b>, building modern web applications with React, Next.js, and Tailwind CSS. I excel at <b>project management, 
-            stakeholder coordination, strategic planning, and growth initiatives</b>. Whether it's organizing events, managing communities, 
-            driving marketing campaigns, or developing web solutions, I bring creativity, leadership, and execution to every project. 
-            Let's collaborate to grow your community, organize impactful events, or build something amazing together!
+            Beyond engineering, I serve as <b>President of Green University Computer Club (GUCC)</b>, where I specialize in <b>event 
+            management, community growth, marketing, and team coordination</b>. I've successfully organized major tech events including 
+            HackTheAI (Inter-University Hackathon), CSE Carnival 2024, and multiple programming competitions, managing teams and 
+            delivering exceptional experiences. I excel at <b>project management, stakeholder coordination, strategic planning, and 
+            growth initiatives</b>. Whether it's developing web solutions, organizing events, managing communities, or driving marketing 
+            campaigns, I bring creativity, leadership, and execution to every project. Let's collaborate to build something amazing together!
           </p>
         </section>
 

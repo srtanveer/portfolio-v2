@@ -1,27 +1,39 @@
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 function Blog() {
   const blogPosts = [
     {
       id: 1,
-      image: '/assets/images/Blog Default.jpg',
-      category: 'Updates',
-      date: '2025-10-26',
-      dateText: 'Oct 26, 2025',
-      title: 'Exciting Things Coming Soon',
-      excerpt: 'Busy with study, will come up with exciting things very soon.',
-      link: '#',
+      image: '/assets/images/Blog Assets/Blog 1/BLOG 1 Hero Image .webp',
+      fallbackImage: '/assets/images/Blog Default.jpg',
+      category: 'Thoughts',
+      date: '2025-11-06',
+      dateText: 'Nov 06, 2025',
+      title: 'Using AI Isn\'t Academic Infidelity',
+      excerpt: 'The sooner we end this unnecessary guilt, the sooner we can get back to the real work of creating',
+      link: '/blog/ai-guilt-syndrome',
     },
-    {
-      id: 2,
-      image: '/assets/images/Blog Default.jpg',
-      category: 'Portfolio',
-      date: '2025-10-26',
-      dateText: 'Oct 26, 2025',
-      title: 'Stay Tuned',
-      excerpt: 'Busy with study, will come up with exciting things very soon.',
-      link: '#',
-    },
+    // {
+    //   id: 2,
+    //   image: '/assets/images/Blog Default.jpg',
+    //   category: 'Updates',
+    //   date: '2025-10-26',
+    //   dateText: 'Oct 26, 2025',
+    //   title: 'Exciting Things Coming Soon',
+    //   excerpt: 'Busy with study, will come up with exciting things very soon.',
+    //   link: '#',
+    // },
+    // {
+    //   id: 3,
+    //   image: '/assets/images/Blog Default.jpg',
+    //   category: 'Portfolio',
+    //   date: '2025-10-26',
+    //   dateText: 'Oct 26, 2025',
+    //   title: 'Stay Tuned',
+    //   excerpt: 'Busy with study, will come up with exciting things very soon.',
+    //   link: '#',
+    // },
   ];
 
   return (
@@ -54,9 +66,18 @@ function Blog() {
           <ul className="blog-posts-list">
             {blogPosts.map((post) => (
               <li key={post.id} className="blog-post-item">
-                <a href={post.link}>
+                <Link to={post.link}>
                   <figure className="blog-banner-box">
-                    <img src={post.image} alt={post.title} loading="lazy" />
+                    <img 
+                      src={post.image} 
+                      alt={post.title} 
+                      loading="lazy"
+                      onError={(e) => {
+                        if (post.fallbackImage) {
+                          e.target.src = post.fallbackImage;
+                        }
+                      }}
+                    />
                   </figure>
                   <div className="blog-content">
                     <div className="blog-meta">
@@ -67,7 +88,7 @@ function Blog() {
                     <h3 className="h3 blog-item-title">{post.title}</h3>
                     <p className="blog-text">{post.excerpt}</p>
                   </div>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
