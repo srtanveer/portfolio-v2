@@ -6,20 +6,20 @@ function Resume() {
     <>
       <Helmet>
         <title>Resume - MD. Showaib Rahman Tanveer</title>
-        <meta name="description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Frontend Developer and Event Organizer" />
-        <meta name="keywords" content="Resume, CV, Education, Experience, Skills, Frontend Developer, Event Organizer, SRTANVEER" />
+        <meta name="description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Software Engineer and Community Lead" />
+        <meta name="keywords" content="Resume, CV, Education, Experience, Skills, Software Engineer, Community Lead, SRTANVEER" />
         <link rel="canonical" href="https://srtanveer.dev/resume" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/resume" />
         <meta property="og:title" content="Resume - MD. Showaib Rahman Tanveer" />
-        <meta property="og:description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Frontend Developer and Event Organizer" />
+        <meta property="og:description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Frontend Developer and Community Lead" />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/resume" />
         <meta property="twitter:title" content="Resume - MD. Showaib Rahman Tanveer" />
-        <meta property="twitter:description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Frontend Developer and Event Organizer" />
+        <meta property="twitter:description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Frontend Developer and Community Lead" />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
       </Helmet>
 
@@ -96,19 +96,19 @@ function Resume() {
             </li>
 
             <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">Data Entry Specialist & Web Service Management Officer</h4>
+              <h4 className="h4 timeline-item-title">Web Service Management Officer</h4>
               <span>February 2023 — May 2023</span>
               <p className="timeline-text">
-                Rang Bangladesh Ltd. — Managed data entry operations and web services on a contractual basis, 
-                ensuring accuracy and efficiency.
+                Rang Bangladesh Ltd. — Managed web services on a contractual basis, 
+                ensuring accuracy and efficiency in all data management tasks.
               </p>
             </li>
 
             <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">Data Entry Specialist</h4>
+              <h4 className="h4 timeline-item-title">Freelance Data Entry Specialist</h4>
               <span>April 2018 — February 2023</span>
               <p className="timeline-text">
-                UpWork — Worked as a freelance data entry specialist, handling various projects with high accuracy and efficiency.
+                UpWork — Handled various projects with high accuracy and efficiency, maintaining excellent client satisfaction ratings.
               </p>
             </li>
           </ol>
