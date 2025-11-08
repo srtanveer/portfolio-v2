@@ -1,8 +1,6 @@
 node_modules
 dist
-COMPARISON.md
-DEPLOYMENT.md
-CV_COMPILATION.md
-QUICK_START_CV.md
-public/assets/images/IMAGE_GUIDE.md
-CV_MD_Showaib_Rahman_Tanveer.tex
+.DS_Store
+*.log
+.env
+.env.local

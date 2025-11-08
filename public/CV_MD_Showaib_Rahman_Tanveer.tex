@@ -1,0 +1,374 @@
+%-------------------------
+% CV in LaTeX
+% Author : MD. Showaib Rahman Tanveer
+%------------------------
+
+\documentclass[a4paper,12pt]{extarticle}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{mathptmx} % Times New Roman font
+\usepackage{anyfontsize} % Allow any font size
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+% Increase base font size
+\let\originalsmall\small
+\let\originalfootnotesize\footnotesize
+\renewcommand{\normalsize}{\fontsize{12pt}{14.6pt}\selectfont}
+\renewcommand{\small}{\fontsize{11pt}{13.4pt}\selectfont}
+\renewcommand{\footnotesize}{\fontsize{10pt}{12.2pt}\selectfont}
+
+% Define custom colors
+\definecolor{primarycolor}{RGB}{0, 102, 204}
+\definecolor{accentcolor}{RGB}{51, 51, 51}
+\definecolor{linkcolor}{RGB}{0, 102, 204}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\setlength{\tabcolsep}{0in}
+\setlength{\parindent}{0pt}
+\renewcommand{\baselinestretch}{1.0}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\large\bfseries\color{primarycolor}
+}{}{0em}{}[\color{primarycolor}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    filecolor=linkcolor,
+    urlcolor=linkcolor,
+}
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small\justifying{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\color{accentcolor}#1} & \textbf{\small \color{primarycolor}#2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small \color{primarycolor}#2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape \color{primarycolor} MD. Showaib Rahman Tanveer} \\ \vspace{6pt}
+    {\large \textit{Software Engineer | Community Lead}} \\ \vspace{8pt}
+    \small 
+    \raisebox{-0.1\height}\faPhone\ +880 1569-104401 ~ $|$ ~ 
+    \href{mailto:srtanveer.cse@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ srtanveer.cse@gmail.com} ~ $|$ ~ 
+    \raisebox{-0.1\height}\faMapMarker\ Dhaka, Bangladesh \\
+    \vspace{3pt}
+    \href{https://www.linkedin.com/in/srtanveer/}{\raisebox{-0.2\height}\faLinkedin\ linkedin.com/in/srtanveer}  ~ $|$ ~
+    \href{https://github.com/srtanveer}{\raisebox{-0.2\height}\faGithub\ github.com/srtanveer} ~ $|$ ~
+    \href{https://srtanveer.dev}{\raisebox{-0.2\height}\faGlobe\ srtanveer.dev}
+    \vspace{-6pt}
+\end{center}
+\vspace{-5pt}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\vspace{2pt}
+\begin{justify}
+Software Engineer and Community Lead with a focus on building modern, responsive web applications and leading high-impact tech initiatives. Frontend Developer Intern at Digi5 Ltd, shipping production features with React, Next.js, and Tailwind CSS using clean, maintainable code and modern practices. President of the Green University Computer Club (GUCC); organized HackTheAI (inter-university hackathon), CSE Carnival 2024, and multiple programming competitions from concept to execution. Strengths include project management, stakeholder coordination, team leadership, and data-driven growth.
+\end{justify}
+% \vspace{-5pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+\vspace{2pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Green University of Bangladesh}{January 2026}
+      {B.Sc. in Computer Science and Engineering}{Dhaka, Bangladesh}
+    \vspace{-2pt}
+    
+    \resumeSubheading
+      {GOVT. Adamjeenagar MW College}{2020}
+      {Higher Secondary Certificate (HSC) in Science}{GPA 4.83/5.00}
+    \vspace{-2pt}
+    
+    \resumeSubheading
+      {A.K. High School and College}{2018}
+      {Secondary School Certificate (SSC) in Science}{GPA 4.56/5.00}
+  \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\vspace{2pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Frontend Developer Intern}{October 2025 -- Present}
+      {Digi5 Ltd}{Dhaka, Bangladesh}
+      \resumeItemListStart
+        \resumeItem{Building modern web applications using React, Next.js, and Tailwind CSS}
+        \resumeItem{Implementing responsive and interactive user interfaces with clean, maintainable code}
+        \resumeItem{Collaborating with team members on various frontend development projects}
+      \resumeItemListEnd
+    \vspace{-2pt}
+
+    \resumeSubheading
+      {Computer Operator (Self-Employed)}{August 2020 -- September 2025}
+      {Faijan Solutions}{Dhaka, Bangladesh}
+      \resumeItemListStart
+        \resumeItem{Providing various digital services including documentation, design, and technical support}
+        \resumeItem{Managing client relationships and delivering high-quality services}
+      \resumeItemListEnd
+    \vspace{-2pt}
+
+    \resumeSubheading
+      {Web Service Management Officer}{February 2023 -- May 2023}
+      {Rang Bangladesh Ltd.}{Narayanganj, Bangladesh}
+      \resumeItemListStart
+        \resumeItem{Managed web services on a contractual basis}
+        \resumeItem{Ensured accuracy and efficiency in all data management tasks}
+      \resumeItemListEnd
+    \vspace{-2pt}
+
+    \resumeSubheading
+      {Freelance Data Entry Specialist}{April 2018 -- February 2023}
+      {UpWork}{Remote}
+      \resumeItemListStart
+        \resumeItem{Handled various projects with high accuracy and efficiency}
+        \resumeItem{Maintained excellent client satisfaction ratings}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------RESEARCH-----------
+\section{Research}
+\vspace{2pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}Sarcasm Analysis on short text} $|$ \emph{Ongoing Academic Thesis}}{2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{\textit{Supervised by} Dr. Md. Saiful Azad, Dean FSE \& Director IQAC, Green University of Bangladesh}
+            \resumeItem{Focus on \textbf{Natural Language Processing (NLP)} and \textbf{Sentiment Analysis}}
+            \resumeItem{Developing techniques to accurately detect sarcasm in social media text}
+            \resumeItem{Exploring methods to identify instances where positive language conveys negative or mocking sentiment}
+            \resumeItem{Applications in opinion mining and social media analysis}
+          \resumeItemListEnd
+          \vspace{-10pt}
+    \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------LEADERSHIP & ACTIVITIES-----------
+\section{Leadership \& Activities}
+\vspace{2pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}President} $|$ \emph{Green University Computer Club (GUCC)}}{2025}
+          \resumeItemListStart
+            \resumeItem{Leading university club activities, managing teams, and coordinating events}
+            \resumeItem{Responsible for leadership, policy making, and strategic planning}
+            \resumeItem{Overseeing event management, community growth, and marketing initiatives}
+          \resumeItemListEnd
+          \vspace{-7pt}
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}Intern Data Collector} $|$ \emph{Green University Center for International Affairs (GCIA)}}{2024}
+          \resumeItemListStart
+            \resumeItem{Collecting data of foreign universities and organizing Memorandum of Understanding (MOU)}
+            \resumeItem{Contributing to international partnership development}
+          \resumeItemListEnd
+          \vspace{-7pt}
+    \resumeSubHeadingListEnd
+% \vspace{-8pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{2pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}Rocketflow} $|$ \emph{Next.js, React, Tailwind CSS}}{\href{https://beta.rocketflow.biz/}{Live} $|$ \href{https://github.com/srtanveer/rocketflow}{Source}}
+          \resumeItemListStart
+            \resumeItem{Modern web application for client}
+          \resumeItemListEnd
+          \vspace{-7pt}
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}Hack The AI} $|$ \emph{HTML, CSS, JavaScript}}{\href{https://hacktheai.smythos.com/}{Live} $|$ \href{https://github.com/srtanveer/hacktheai-website}{Source}}
+          \resumeItemListStart
+            \resumeItem{Complete event landing page designed and developed for Inter-University Hackathon}
+          \resumeItemListEnd
+          \vspace{-7pt}
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}GUCC Website} $|$ \emph{Next.js, React, TypeScript, Tailwind CSS}}{\href{https://gucc.green.edu.bd/}{Live} $|$ \href{https://github.com/GreenUniversityComputerClub/gucc}{Source}}
+          \resumeItemListStart
+            \resumeItem{Official website for Green University Computer Club built with modern tech stack}
+          \resumeItemListEnd
+          \vspace{-7pt}
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}July-24} $|$ \emph{Next.js, React, TypeScript, Tailwind CSS}}{\href{https://july24bd.vercel.app}{Live} $|$ \href{https://github.com/srtanveer/JULY-24}{Source}}
+          \resumeItemListStart
+            \resumeItem{Commemorative project built with Next.js and TypeScript}
+          \resumeItemListEnd
+          \vspace{-7pt}
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}Faijan Solution} $|$ \emph{HTML, CSS, JavaScript}}{\href{https://faijansolutions.vercel.app}{Live} $|$ \href{https://github.com/srtanveer/Faijan-Solution}{Source}}
+          \resumeItemListStart
+            \resumeItem{Business website for digital services company}
+          \resumeItemListEnd
+          \vspace{-7pt}
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}Perfect Pathway} $|$ \emph{Python, Algorithms, Data Structures}}{\href{https://perfect-pathway.vercel.app}{Live} $|$ \href{https://github.com/srtanveer/perfect-pathway}{Source}}
+          \resumeItemListStart
+            \resumeItem{Algorithm and data structure implementation project}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+% \vspace{-8pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\vspace{2pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\color{accentcolor}Languages \& Frameworks}{: Python, C++, JavaScript (ES6+), React.js, Next.js, Tailwind CSS} \\[3pt]
+     \textbf{\color{accentcolor}Tools \& Platforms}{: Git, GitHub, VS Code, Jupyter Notebook, Kaggle, WordPress, MS Office, Canva} \\[3pt]
+     \textbf{\color{accentcolor}Soft Skills}{: Communication, Teamwork, Project Management, Strategic Planning, Event Management}
+    }}
+ \end{itemize}
+ % \vspace{-12pt}
+
+%-----------AWARDS & HONORS-----------
+\section{Awards \& Honors}
+\vspace{2pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{\color{accentcolor}Best Intern in the Dev Team} $|$ \emph{Digi5 Ltd}}{October, 2025}
+          % \vspace{-10pt}
+    \resumeProjectHeading
+          {\textbf{\color{accentcolor}Lead Organizer} $|$ \emph{HackTheAI - Inter University Hackathon}}{September, 2025}
+          % \vspace{-10pt}
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}Best Project Award} $|$ \emph{Integrated Design Project Poster Presentation, Dept. of CSE, GUB}}{February, 2025}
+          % \vspace{-10pt}
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}Volunteer} $|$ \emph{2024 International Conference on Sustainable Technologies for Industry 5.0 (STI 2024)}}{December, 2024}
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}Lead Volunteer} $|$ \emph{GUB CSE Carnival 2024}}{October, 2024}
+          % \vspace{-10pt}
+      \resumeProjectHeading
+          {\textbf{\color{accentcolor}Organizer} $|$ \emph{Inter Department Programming Competition (IDPC 2024)}}{February, 2024}
+          % \vspace{-10pt}
+    \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------CERTIFICATIONS-----------
+\section{Training \& Certifications}
+\vspace{2pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\faCertificate\ \textbf{\color{accentcolor}Problem Solving (Basic) Certificate} $|$ \emph{HackerRank}}{}
+          \vspace{-10pt}
+      \resumeProjectHeading
+          {\faCertificate\ \textbf{\color{accentcolor}Corporate Readiness Program} $|$ \emph{UTC Global Academy}}{}
+          \vspace{-10pt}
+    %   \resumeProjectHeading
+    %       {\faCertificate\ \textbf{\color{accentcolor}Python Programming in a Pragmatic Approach} $|$ \emph{Workshop on Python}}{}
+    %       \vspace{-10pt}
+      \resumeProjectHeading
+          {\faCertificate\ \textbf{\color{accentcolor}JavaScript Algorithms and Data Structures} $|$ \emph{freeCodeCamp}}{}
+          \vspace{-10pt}
+      % \resumeProjectHeading
+      %     {\faCertificate\ \textbf{\color{accentcolor}Responsive Web Design} $|$ \emph{freeCodeCamp}}{}
+    \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------REFERENCES-----------
+\section{References}
+\vspace{2pt}
+\begin{multicols}{2}
+\noindent
+\textbf{\color{accentcolor}Amber Graner} \\
+Head of Community \\
+SmythOS, USA \\
+Email: \href{mailto:amber@smythos.com}{amber@smythos.com}
+
+\columnbreak
+
+\noindent
+\textbf{\color{accentcolor}Prof. Dr. Md. Saiful Azad} \\
+Dean, Faculty of Science and Engineering \\
+Director, IQAC \\
+Green University of Bangladesh \\
+Email: \href{mailto:dean@fse.green.edu.bd}{dean@fse.green.edu.bd}
+\end{multicols}
+
+\end{document}
