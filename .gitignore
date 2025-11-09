@@ -4,3 +4,9 @@ dist
 *.log
 .env
 .env.local
+
+# Guide files (for local development reference only)
+*_GUIDE.md
+DEPLOYMENT.md
+IMAGE_PROMPTS_GUIDE.md
+BLOG_POST_GUIDE.md

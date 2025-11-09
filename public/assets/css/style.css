@@ -482,14 +482,17 @@ main {
   background: var(--onyx);
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
-  width: max-content;
+  width: auto;
   max-width: 100%;
   padding: 5px 12px;
   border-radius: 8px;
-  white-space: nowrap;
+  white-space: pre-line;
   overflow: hidden;
-  text-overflow: ellipsis;
-  display: inline-block;
+  text-overflow: clip;
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+  word-wrap: break-word;
 }
 
 .info_more-btn {
@@ -1900,7 +1903,17 @@ textarea.form-input {
 
   .info-content .name { margin-bottom: 15px; }
 
-  .info-content .title { padding: 5px 18px; }
+  .info-content .title { 
+    padding: 5px 18px;
+    white-space: pre-line;
+    overflow: hidden;
+    text-overflow: clip;
+    text-align: center;
+    line-height: 1.5;
+    width: auto;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
 
   .info_more-btn {
     top: -30px;
@@ -2220,6 +2233,14 @@ textarea.form-input {
 
   .info-content .title { 
     margin: 0 auto;
+    white-space: pre-line;
+    overflow: hidden;
+    text-overflow: clip;
+    text-align: center;
+    line-height: 1.5;
+    width: auto;
+    max-width: 100%;
+    word-wrap: break-word;
   }
 
   .separator {
