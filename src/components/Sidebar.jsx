@@ -132,6 +132,11 @@ function Sidebar() {
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
+          <li className="social-item">
+            <a href="https://www.threads.com/@srtanveerr" className="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-threads"></ion-icon>
+            </a>
+          </li> 
         </ul>
       </div>
     </aside>

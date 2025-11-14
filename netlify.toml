@@ -6,3 +6,11 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Optional: Subdomain redirect for Tukhor Assignment
+# To use: Create a subdomain "tukhor-assignment" in Netlify DNS
+# [[redirects]]
+#   from = "https://tukhor-assignment.yourdomain.com/*"
+#   to = "https://yourdomain.com/tukhor-assignment"
+#   status = 301
+#   force = true

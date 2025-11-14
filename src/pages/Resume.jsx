@@ -79,21 +79,21 @@ function Resume() {
           <ol className="timeline-list">
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Frontend Developer</h4>
-              <span>October 2025 — Present</span>
+              <span>September 2025 — Present</span>
               <p className="timeline-text">
                 Digi5 Ltd — Working as a Frontend Developer Intern, building modern web applications using React, 
                 Next.js, and Tailwind CSS.
               </p>
             </li>
 
-            <li className="timeline-item">
+            {/* <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Computer Operator</h4>
-              <span>August 2020 — September 2025</span>
+              <span>August 2020 — August 2025</span>
               <p className="timeline-text">
                 Faijan Solutions — Self-employed computer operator providing various digital services including 
                 documentation, design, and technical support.
               </p>
-            </li>
+            </li> */}
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Web Service Management Officer</h4>
@@ -104,13 +104,13 @@ function Resume() {
               </p>
             </li>
 
-            <li className="timeline-item">
+            {/* <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Freelance Data Entry Specialist</h4>
               <span>April 2018 — February 2023</span>
               <p className="timeline-text">
                 UpWork — Handled various projects with high accuracy and efficiency, maintaining excellent client satisfaction ratings.
               </p>
-            </li>
+            </li> */}
           </ol>
         </section>
 
