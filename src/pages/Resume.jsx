@@ -6,20 +6,20 @@ function Resume() {
     <>
       <Helmet>
         <title>Resume - MD. Showaib Rahman Tanveer</title>
-        <meta name="description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Software Engineer and Community Lead" />
-        <meta name="keywords" content="Resume, CV, Education, Experience, Skills, Software Engineer, Community Lead, SRTANVEER" />
+        <meta name="description" content="Aspiring Project Manager with technical background - MD. Showaib Rahman Tanveer. Proven experience in event management, team leadership, and tech project coordination." />
+        <meta name="keywords" content="Resume, CV, Project Manager, Technical Project Manager, Event Management, Team Leadership, Community Lead, SRTANVEER, Project Coordination" />
         <link rel="canonical" href="https://srtanveer.dev/resume" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/resume" />
         <meta property="og:title" content="Resume - MD. Showaib Rahman Tanveer" />
-        <meta property="og:description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Frontend Developer and Community Lead" />
+        <meta property="og:description" content="Aspiring Project Manager with technical background. Proven experience in event management, team leadership, and tech project coordination." />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/resume" />
         <meta property="twitter:title" content="Resume - MD. Showaib Rahman Tanveer" />
-        <meta property="twitter:description" content="Education, experience, and skills of MD. Showaib Rahman Tanveer - Frontend Developer and Community Lead" />
+        <meta property="twitter:description" content="Aspiring Project Manager with technical background. Proven experience in event management, team leadership, and tech project coordination." />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
       </Helmet>
 
@@ -44,8 +44,8 @@ function Resume() {
               <h4 className="h4 timeline-item-title">B.Sc. in Computer Science and Engineering</h4>
               <span>Expected January, 2026</span>
               <p className="timeline-text">
-                Green University of Bangladesh — Currently pursuing a Bachelor's degree in Computer Science and Engineering 
-                with focus on software development, algorithms, and data structures.
+                Green University of Bangladesh — Building strong technical foundation to support project management career, 
+                with hands-on experience in software development lifecycle and team collaboration.
               </p>
             </li>
 
@@ -78,39 +78,96 @@ function Resume() {
 
           <ol className="timeline-list">
             <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">Frontend Developer</h4>
-              <span>September 2025 — Present</span>
+              <h4 className="h4 timeline-item-title">Frontend Developer Intern</h4>
+              <span>October 2025 — December 2025 · 3 months</span>
               <p className="timeline-text">
-                Digi5 Ltd — Working as a Frontend Developer Intern, building modern web applications using React, 
-                Next.js, and Tailwind CSS.
+                Digi5 Ltd — Collaborated with cross-functional teams to deliver production features on schedule. 
+                Gained deep understanding of development workflows, sprint planning, and technical requirement gathering.
               </p>
             </li>
 
-            {/* <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">Computer Operator</h4>
-              <span>August 2020 — August 2025</span>
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Digital Services Provider (Self-Employed)</h4>
+              <span>August 2020 — September 2025 · 5 yrs 2 mos</span>
               <p className="timeline-text">
-                Faijan Solutions — Self-employed computer operator providing various digital services including 
-                documentation, design, and technical support.
+                Faijan Solutions — Managed end-to-end client relationships and project delivery for digital services. 
+                Handled requirement gathering, timeline estimation, and quality assurance while maintaining high client satisfaction.
               </p>
-            </li> */}
+            </li>
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Web Service Management Officer</h4>
-              <span>February 2023 — May 2023</span>
+              <span>February 2023 — May 2023 · 4 months</span>
               <p className="timeline-text">
-                Rang Bangladesh Ltd. — Managed web services on a contractual basis, 
-                ensuring accuracy and efficiency in all data management tasks.
+                Rang Bangladesh Ltd. — Coordinated web service operations on contractual basis, ensuring timely delivery 
+                and quality standards. Managed stakeholder expectations and resource allocation.
               </p>
             </li>
 
-            {/* <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">Freelance Data Entry Specialist</h4>
-              <span>April 2018 — February 2023</span>
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Data Entry Specialist</h4>
+              <span>April 2018 — February 2023 · 4 yrs 11 mos</span>
               <p className="timeline-text">
-                UpWork — Handled various projects with high accuracy and efficiency, maintaining excellent client satisfaction ratings.
+                UpWork — Managed multiple client projects simultaneously with strict deadlines. Developed strong time management, 
+                client communication, and quality control skills while maintaining excellent satisfaction ratings.
               </p>
-            </li> */}
+            </li>
+          </ol>
+        </section>
+
+        <section className="timeline">
+          <div className="title-wrapper">
+            <div className="icon-box">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+            <h3 className="h3">Leadership & Project Management Experience</h3>
+          </div>
+
+          <ol className="timeline-list">
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">President</h4>
+              <span>2025 — Present</span>
+              <p className="timeline-text">
+                Green University Computer Club (GUCC) — Leading university-wide tech club with full responsibility for strategic planning, 
+                policy making, and operational oversight. Managing executive team, coordinating multiple concurrent events, and driving community growth initiatives.
+              </p>
+            </li>
+
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Lead Organizer - Inter-University Hackathon</h4>
+              <span>September 2025</span>
+              <p className="timeline-text">
+                HackTheAI — Spearheaded end-to-end project management for 200+ participant hackathon. Coordinated with sponsors, 
+                vendors, and university administration. Managed budget, timeline, marketing campaigns, and volunteer teams to deliver successful event.
+              </p>
+            </li>
+
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Lead Volunteer - Department Carnival</h4>
+              <span>October 2024</span>
+              <p className="timeline-text">
+                GUB CSE Carnival 2024 — Led volunteer coordination for large-scale department event. Managed task delegation, 
+                schedule coordination, and on-ground execution with cross-functional teams.
+              </p>
+            </li>
+
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Event Organizer - Programming Competitions</h4>
+              <span>2024</span>
+              <p className="timeline-text">
+                Inter Department Programming Competition (IDPC) — Organized competitive programming events from concept to completion. 
+                Handled logistics, participant management, judging coordination, and post-event reporting.
+              </p>
+            </li>
+
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Intern Data Collector</h4>
+              <span>2024</span>
+              <p className="timeline-text">
+                Green University Center for International Affairs (GCIA) — Collected and organized data for international university partnerships. 
+                Contributed to MOU preparation and documentation management for international collaborations.
+              </p>
+            </li>
           </ol>
         </section>
 
@@ -118,49 +175,49 @@ function Resume() {
           <h3 className="h3 skills-title">Skills Summary</h3>
 
           <div className="skills-summary-container">
-            {/* Languages */}
+            {/* Project Management Skills */}
             <div className="skill-category">
               <div className="skill-category-header">
-                <ion-icon name="code-slash-outline"></ion-icon>
-                <h4 className="h4">Languages:</h4>
+                <ion-icon name="trending-up-outline"></ion-icon>
+                <h4 className="h4">Project Management:</h4>
               </div>
-              <p className="skill-list-text">Python, C++, JavaScript</p>
+              <p className="skill-list-text">Event Management, Strategic Planning, Stakeholder Coordination, Budget Management, Timeline Planning, Risk Management</p>
             </div>
 
-            {/* Frontend Technologies */}
-            <div className="skill-category">
-              <div className="skill-category-header">
-                <ion-icon name="browsers-outline"></ion-icon>
-                <h4 className="h4">Frontend:</h4>
-              </div>
-              <p className="skill-list-text">React.js, Next.js, HTML5, CSS3, Tailwind CSS, JavaScript (ES6+)</p>
-            </div>
-
-            {/* Tools */}
-            <div className="skill-category">
-              <div className="skill-category-header">
-                <ion-icon name="construct-outline"></ion-icon>
-                <h4 className="h4">Tools:</h4>
-              </div>
-              <p className="skill-list-text">MS Office Suite, Google Workspace, Canva</p>
-            </div>
-
-            {/* Platforms */}
-            <div className="skill-category">
-              <div className="skill-category-header">
-                <ion-icon name="desktop-outline"></ion-icon>
-                <h4 className="h4">Platforms:</h4>
-              </div>
-              <p className="skill-list-text">Kaggle, Jupyter Notebook, VS Code, IntelliJ IDEA, WordPress</p>
-            </div>
-
-            {/* Soft Skills */}
+            {/* Leadership & Soft Skills */}
             <div className="skill-category">
               <div className="skill-category-header">
                 <ion-icon name="people-outline"></ion-icon>
-                <h4 className="h4">Soft Skills:</h4>
+                <h4 className="h4">Leadership & Soft Skills:</h4>
               </div>
-              <p className="skill-list-text">Teamwork, Communication, Requirement Gathering, Task Scheduling, Report Building, People & Time Management</p>
+              <p className="skill-list-text">Team Leadership, Cross-functional Collaboration, Communication, Requirement Gathering, Task Delegation, People Management, Time Management, Conflict Resolution</p>
+            </div>
+
+            {/* Technical Understanding */}
+            <div className="skill-category">
+              <div className="skill-category-header">
+                <ion-icon name="code-slash-outline"></ion-icon>
+                <h4 className="h4">Technical Background:</h4>
+              </div>
+              <p className="skill-list-text">Web Development (React, Next.js), Software Development Lifecycle, Agile Methodologies, Technical Documentation</p>
+            </div>
+
+            {/* Tools & Platforms */}
+            <div className="skill-category">
+              <div className="skill-category-header">
+                <ion-icon name="construct-outline"></ion-icon>
+                <h4 className="h4">Tools & Platforms:</h4>
+              </div>
+              <p className="skill-list-text">MS Office Suite, Google Workspace, Project Documentation Tools, Canva, WordPress</p>
+            </div>
+
+            {/* Additional Skills */}
+            <div className="skill-category">
+              <div className="skill-category-header">
+                <ion-icon name="analytics-outline"></ion-icon>
+                <h4 className="h4">Additional Competencies:</h4>
+              </div>
+              <p className="skill-list-text">Data Analysis, Report Building, Marketing Strategy, Community Growth, Client Relations, Quality Assurance</p>
             </div>
           </div>
         </section>

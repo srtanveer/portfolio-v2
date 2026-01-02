@@ -4,21 +4,21 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>MD. Showaib Rahman Tanveer - Software Engineer | Community Lead</title>
-        <meta name="description" content="Experienced Software Engineer & Community Lead specializing in web development, event management, community growth, and marketing. President of GUCC, skilled in React, Next.js, and team coordination." />
-        <meta name="keywords" content="Software Engineer, React Developer, Next.js Developer, Web Developer, Community Lead, Project Manager, Community Builder, Marketing Specialist, Growth Strategist, Event Management, Team Coordination, SRTANVEER, Showaib Rahman Tanveer, GUCC President, University Club Management, Web Developer Bangladesh, Tech Event Organizer, Community Growth, Dhaka Developer" />
+        <title>MD. Showaib Rahman Tanveer - Aspiring Project Manager | Technical Background</title>
+        <meta name="description" content="Aspiring Project Manager with technical expertise in web development. Proven leadership in event management, team coordination, and community growth. President of GUCC with experience managing large-scale tech initiatives." />
+        <meta name="keywords" content="Project Manager, Technical Project Manager, Event Management, Team Leadership, Community Lead, Stakeholder Coordination, Project Coordination, SRTANVEER, Showaib Rahman Tanveer, GUCC President, University Club Management, Tech Event Organizer, Community Growth, Dhaka" />
         <link rel="canonical" href="https://srtanveer.dev/" />
-        
+
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/" />
-        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Software Engineer | Community Lead" />
-        <meta property="og:description" content="Experienced Software Engineer & Community Lead. Expert in modern web development, event management, community growth, and marketing." />
+        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Aspiring Project Manager | Technical Background" />
+        <meta property="og:description" content="Aspiring Project Manager with technical expertise. Proven leadership in event management, team coordination, and community growth." />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
-        
+
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/" />
-        <meta property="twitter:title" content="MD Showaib Rahman Tanveer - Software Engineer | Community Lead" />
-        <meta property="twitter:description" content="Experienced Software Engineer & Community Lead. Expert in modern web development, event management, community growth, and marketing." />
+        <meta property="twitter:title" content="MD Showaib Rahman Tanveer - Aspiring Project Manager | Technical Background" />
+        <meta property="twitter:description" content="Aspiring Project Manager with technical expertise. Proven leadership in event management, team coordination, and community growth." />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
       </Helmet>
 
@@ -29,18 +29,15 @@ function About() {
 
         <section className="about-text">
           <p>
-            Hey! I'm a <b>Software Engineer and Community Lead</b> with a passion for building digital solutions and bringing 
-            people together. I'm a <b>Computer Science student at Green University of Bangladesh</b> and <b>Frontend Developer Intern 
-            at Digi5 Ltd</b>, building modern web applications with React, Next.js, and Tailwind CSS. I specialize in developing 
-            responsive and scalable web applications with clean, maintainable code and modern development practices.
+            I'm an <b>aspiring Project Manager</b> with a strong technical foundation, passionate about leading teams and delivering impactful projects.
+            As a <b>Computer Science student at Green University of Bangladesh</b> and former <b>Frontend Developer Intern at Digi5 Ltd</b>,
+            I combine technical understanding with proven leadership capabilities to drive successful project outcomes.
           </p>
           <p>
-            Beyond engineering, I serve as <b>President of Green University Computer Club (GUCC)</b>, where I specialize in <b>event 
-            management, community growth, marketing, and team coordination</b>. I've successfully organized major tech events including 
-            HackTheAI (Inter-University Hackathon), CSE Carnival 2024, and multiple programming competitions, managing teams and 
-            delivering exceptional experiences. I excel at <b>project management, stakeholder coordination, strategic planning, and 
-            growth initiatives</b>. Whether it's developing web solutions, organizing events, managing communities, or driving marketing 
-            campaigns, I bring creativity, leadership, and execution to every project. Let's collaborate to build something amazing together!
+            Currently serving as <b>President of Green University Computer Club (GUCC)</b>, I lead <b>strategic planning, team coordination, and large-scale event execution</b>.
+            I've successfully managed major initiatives including inter-university hackathons, department carnivals, and programming competitions,
+            demonstrating expertise in <b>stakeholder management, budget coordination, and cross-functional team leadership</b>. My goal is to leverage my technical background
+            and organizational skills to excel in project management roles.
           </p>
         </section>
 
@@ -51,24 +48,24 @@ function About() {
           <ul className="service-list">
             <li className="service-item">
               <div className="service-icon-box">
-                <ion-icon name="flask-outline"></ion-icon>
+                <ion-icon name="rocket-outline"></ion-icon>
               </div>
               <div className="service-content-box">
-                <h4 className="h4 service-item-title">Researching</h4>
+                <h4 className="h4 service-item-title">Project Management</h4>
                 <p className="service-item-text">
-                  Conducting academic research in NLP, focusing on Sarcasm Analysis and sentiment detection in social media text.
+                  Leading and coordinating tech projects from conception to delivery. Managing timelines, resources, stakeholders, and team dynamics to ensure successful outcomes.
                 </p>
               </div>
             </li>
 
             <li className="service-item">
               <div className="service-icon-box">
-                <ion-icon name="desktop-outline"></ion-icon>
+                <ion-icon name="people-outline"></ion-icon>
               </div>
               <div className="service-content-box">
-                <h4 className="h4 service-item-title">Software Engineering</h4>
+                <h4 className="h4 service-item-title">Team Leadership</h4>
                 <p className="service-item-text">
-                  Building responsive and interactive user interfaces with React, Next.js, and Tailwind CSS. Experienced in developing modern web applications with clean, maintainable code.
+                  Building and leading high-performing teams. Fostering collaboration, delegating effectively, and driving team members toward shared goals with clear communication.
                 </p>
               </div>
             </li>
@@ -78,21 +75,21 @@ function About() {
                 <ion-icon name="file-tray-full-outline"></ion-icon>
               </div>
               <div className="service-content-box">
-                <h4 className="h4 service-item-title">Organizing</h4>
+                <h4 className="h4 service-item-title">Event Management</h4>
                 <p className="service-item-text">
-                  Leading and organizing university club activities, managing teams, and coordinating events with strong project management and organizational skills.
+                  Planning and executing large-scale university events including hackathons, carnivals, and competitions. Managing budgets, vendors, sponsors, and cross-functional coordination.
                 </p>
               </div>
             </li>
 
             <li className="service-item">
               <div className="service-icon-box">
-                <ion-icon name="bulb-outline"></ion-icon>
+                <ion-icon name="desktop-outline"></ion-icon>
               </div>
               <div className="service-content-box">
-                <h4 className="h4 service-item-title">Problem Solving</h4>
+                <h4 className="h4 service-item-title">Technical Understanding</h4>
                 <p className="service-item-text">
-                  Strong algorithmic thinking and problem-solving skills, with experience implementing efficient solutions to complex challenges.
+                  Leveraging hands-on software development experience to effectively communicate with technical teams, understand technical requirements, and make informed project decisions.
                 </p>
               </div>
             </li>
@@ -103,12 +100,12 @@ function About() {
         <section className="research">
           <h3 className="h3 research-title">Research</h3>
           <div className="research-content">
-            <h4 className="h4 research-item-title">Sarcasm Analysis (Ongoing Academic Thesis)</h4>
+            <h4 className="h4 research-item-title">Sarcasm Analysis on Short Text (Ongoing Academic Thesis)</h4>
             <p className="research-supervisor">Supervised by Dr. Md. Saiful Azad, Dean FSE & Director IQAC, Green University of Bangladesh</p>
             <p className="research-text">
-              Sarcasm Analysis is a challenging area within Natural Language Processing (NLP) and Sentiment Analysis. 
-              It focuses on identifying instances where text uses positive language to convey a negative or mocking sentiment. 
-              This research explores techniques to accurately detect sarcasm, which is crucial for understanding the true intent 
+              Sarcasm Analysis is a challenging area within Natural Language Processing (NLP) and Sentiment Analysis.
+              It focuses on identifying instances where text uses positive language to convey a negative or mocking sentiment.
+              This research explores techniques to accurately detect sarcasm, which is crucial for understanding the true intent
               behind online communications and improving applications like opinion mining and social media analysis.
             </p>
           </div>
@@ -116,50 +113,32 @@ function About() {
 
         {/* Leadership */}
         <section className="leadership">
-          <h3 className="h3 leadership-title">Leadership & Activities</h3>
+          <h3 className="h3 leadership-title">Current Leadership Role</h3>
           <ul className="leadership-list">
             <li className="leadership-item">
-              <h4 className="h4 leadership-item-title">President</h4>
-              <p className="leadership-org">Green University Computer Club (GUCC), 2025</p>
-              <p className="leadership-text">Leadership & Policy Making</p>
-            </li>
-            <li className="leadership-item">
-              <h4 className="h4 leadership-item-title">Intern Data Collector</h4>
-              <p className="leadership-org">Green University Center for International Affairs – GCIA</p>
-              <p className="leadership-text">Collecting data of Foreign Universities & Organizing MOU</p>
+              <h4 className="h4 leadership-item-title">President - GUCC</h4>
+              <p className="leadership-org">Green University Computer Club, 2025 - Present</p>
+              <p className="leadership-text">Leading strategic planning, policy making, team leadership, budget management, and event coordination for the university's premier tech club. Managing multiple concurrent projects and driving community growth initiatives.</p>
             </li>
           </ul>
         </section>
 
         {/* Awards & Honors */}
         <section className="awards">
-          <h3 className="h3 awards-title">Awards & Honors</h3>
+          <h3 className="h3 awards-title">Key Achievements</h3>
           <ul className="awards-list">
             <li className="award-item">
-              <h4 className="h4 award-item-title">Lead Organizer</h4>
-              <p className="award-description">HackTheAI - Inter University Hackathon</p>
+              <h4 className="h4 award-item-title">Best Intern in Dev Team</h4>
+              <p className="award-description">Digi5 Ltd, October 2025</p>
             </li>
             <li className="award-item">
-              <h4 className="h4 award-item-title">Lead Volunteer</h4>
-              <p className="award-description">GUB CSE CARNIVAL 2024 & IDGC 2025</p>
+              <h4 className="h4 award-item-title">Lead Organizer</h4>
+              <p className="award-description">HackTheAI - Inter-University Hackathon, September 2025</p>
             </li>
             <li className="award-item">
               <h4 className="h4 award-item-title">Best Project Award</h4>
-              <p className="award-description">Integrated Design Project Poster Presentation, Fall 2024 Dept of CSE, GUB</p>
+              <p className="award-description">Integrated Design Project Poster Presentation, Fall 2024</p>
             </li>
-            <li className="award-item">
-              <h4 className="h4 award-item-title">Volunteer</h4>
-              <p className="award-description">6th International Conference on STI 2024</p>
-            </li>
-            <li className="award-item">
-              <h4 className="h4 award-item-title">Organizer</h4>
-              <p className="award-description">Inter Department Programming Competition (IDPC 2024)</p>
-            </li>
-            <li className="award-item">
-              <h4 className="h4 award-item-title">Preliminary Participant</h4>
-              <p className="award-description">ICPC 2022 Asia Dhaka Regional Site online Preliminary Contest</p>
-            </li>
-            
           </ul>
         </section>
 

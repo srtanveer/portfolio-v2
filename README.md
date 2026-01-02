@@ -1,6 +1,6 @@
 # Portfolio V2
 
-Personal portfolio website showcasing my work as an Organizer and Frontend Developer.
+Personal portfolio website showcasing my work as an Aspiring Project Manager with technical expertise in event management and team leadership.
 <!-- ## 🚀 Quick Start
 
 ```sh

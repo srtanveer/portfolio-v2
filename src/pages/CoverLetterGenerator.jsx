@@ -16,25 +16,25 @@ function CoverLetterGenerator() {
     email: "contact@srtanveer.dev",
     phone: "+880 1521 437 567",
     location: "Dhaka, Bangladesh",
-    currentRole: "Frontend Developer Intern at Digi5 Ltd",
+    currentRole: "Aspiring Project Manager | President of GUCC",
     education: "B.Sc. in Computer Science and Engineering (Expected January, 2026) from Green University of Bangladesh",
     skills: {
-      languages: "Python, C++, JavaScript",
-      frontend: "React.js, Next.js, HTML5, CSS3, Tailwind CSS, JavaScript (ES6+)",
-      tools: "MS Office Suite, Google Workspace, Canva",
-      platforms: "Kaggle, Jupyter Notebook, VS Code, IntelliJ IDEA, WordPress",
-      soft: "Teamwork, Communication, Requirement Gathering, Task Scheduling, Report Building, People & Time Management"
+      projectManagement: "Event Management, Strategic Planning, Stakeholder Coordination, Budget Management, Timeline Planning, Risk Management",
+      leadership: "Team Leadership, Cross-functional Collaboration, Communication, Requirement Gathering, Task Delegation, People Management, Time Management, Conflict Resolution",
+      technical: "Web Development (React, Next.js), Software Development Lifecycle, Agile Methodologies, Technical Documentation",
+      tools: "MS Office Suite, Google Workspace, Project Documentation Tools, Canva, WordPress",
+      additional: "Data Analysis, Report Building, Marketing Strategy, Community Growth, Client Relations, Quality Assurance"
     },
     experience: [
-      "Frontend Developer Intern at Digi5 Ltd (October 2025 - Present): Building modern web applications using React, Next.js, and Tailwind CSS",
-      "Computer Operator at Faijan Solutions (August 2020 - September 2025): Self-employed providing various digital services",
-      "Web Service Management Officer at Rang Bangladesh Ltd. (February 2023 - May 2023): Managed web services",
-      "Freelance Data Entry Specialist on UpWork (April 2018 - February 2023): Handled various projects with high accuracy"
+      "President at Green University Computer Club (GUCC), 2025 - Present: Leading strategic planning, policy making, and operational oversight. Managing executive team and coordinating multiple concurrent events",
+      "Lead Organizer - HackTheAI Inter-University Hackathon, September 2025: Managed 200+ participant event with full responsibility for sponsor coordination, budget, marketing, and volunteer teams",
+      "Frontend Developer Intern at Digi5 Ltd (October 2025 - December 2025): Collaborated with cross-functional teams on production features. Gained experience in sprint planning and requirement gathering",
+      "Digital Services Provider at Faijan Solutions (August 2020 - September 2025): Managed end-to-end client relationships and project delivery"
     ],
     leadership: [
-      "President of Green University Computer Club (GUCC), 2025: Leadership & Policy Making",
-      "Lead Organizer of HackTheAI - Inter University Hackathon",
-      "Lead Volunteer at GUB CSE CARNIVAL 2024 & IDGC 2025"
+      "President of Green University Computer Club (GUCC), 2025 - Present: Strategic planning, policy making, team leadership, and event coordination",
+      "Lead Organizer of HackTheAI - Successfully managed inter-university hackathon with 200+ participants",
+      "Lead Volunteer at GUB CSE Carnival 2024: Coordinated large volunteer team and on-ground execution"
     ],
     research: "Working on Sarcasm Analysis in NLP, supervised by Dr. Md. Saiful Azad",
     website: "https://srtanveer.dev"
@@ -59,10 +59,11 @@ Name: ${personalInfo.name}
 Current Role: ${personalInfo.currentRole}
 Education: ${personalInfo.education}
 Skills: 
-- Languages: ${personalInfo.skills.languages}
-- Frontend: ${personalInfo.skills.frontend}
+- Project Management: ${personalInfo.skills.projectManagement}
+- Leadership: ${personalInfo.skills.leadership}
+- Technical Background: ${personalInfo.skills.technical}
 - Tools: ${personalInfo.skills.tools}
-- Soft Skills: ${personalInfo.skills.soft}
+- Additional: ${personalInfo.skills.additional}
 
 Key Experience:
 ${personalInfo.experience.map((exp, idx) => `${idx + 1}. ${exp}`).join('\n')}
@@ -159,7 +160,9 @@ Dear Hiring Manager,
 
 I am writing to express my strong interest in the ${jobTitle} position at ${companyName}. As a ${personalInfo.currentRole} with a background in ${personalInfo.education.split(' from ')[0]}, I am excited about the opportunity to contribute to your team.
 
-Currently, I am working as a Frontend Developer Intern at Digi5 Ltd, where I build modern web applications using React, Next.js, and Tailwind CSS. My technical skills include ${personalInfo.skills.languages}, along with expertise in ${personalInfo.skills.frontend}. These skills align well with the requirements mentioned in your job posting.
+Currently, I serve as President of Green University Computer Club (GUCC), where I lead strategic planning, team coordination, and large-scale event execution. I have successfully managed major initiatives including the HackTheAI inter-university hackathon with 200+ participants, demonstrating strong project management, stakeholder coordination, and budget management skills. My technical background includes experience as a Frontend Developer Intern at Digi5 Ltd, providing me with valuable understanding of development workflows and cross-functional collaboration.
+
+Beyond my leadership capabilities, I bring expertise in ${personalInfo.skills.projectManagement}, along with strong ${personalInfo.skills.leadership}. These skills align well with the requirements mentioned in your job posting.
 
 Beyond my technical capabilities, I bring strong leadership experience as the President of Green University Computer Club (GUCC), where I have successfully organized major tech events including HackTheAI (Inter-University Hackathon) and CSE Carnival 2024. This role has honed my ${personalInfo.skills.soft}, which I believe are crucial for success in the ${jobTitle} position.
 

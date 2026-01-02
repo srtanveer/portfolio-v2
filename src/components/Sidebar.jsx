@@ -42,7 +42,7 @@ function Sidebar() {
         <div className="info-content">
           <h1 className="name" title="MD. SHOWAIB RAHMAN TANVEER">MD. SHOWAIB RAHMAN TANVEER</h1>
           <p className="title">
-            / Software Engineer /<br />
+             / Project Manager /<br />
             / Community Lead /
           </p>
         </div>
@@ -83,7 +83,7 @@ function Sidebar() {
             </div>
             <div className="contact-info">
               <p className="contact-title">Working at</p>
-              <p className="contact-link">FrontEnd Developer Intern at Digi5 LTD</p>
+              <p className="contact-link">President at GUCC | Former Dev Intern at Digi5 Ltd</p>
             </div>
           </li>
 
