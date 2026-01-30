@@ -11,6 +11,7 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import CoverLetterGenerator from './pages/CoverLetterGenerator';
 import BlogPost_AIGuiltSyndrome from './components/BlogPost_AIGuiltSyndrome';
+import BlogPost_DataRunsLives from './components/BlogPost_DataRunsLives';
 import './App.css';
 import './components/BlogPost.css';
 
@@ -45,6 +46,7 @@ function App() {
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/ai-guilt-syndrome" element={<BlogPost_AIGuiltSyndrome />} />
+              <Route path="/blog/data-runs-our-lives" element={<BlogPost_DataRunsLives />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/cover-letter-generator" element={<CoverLetterGenerator />} />
             </Routes>

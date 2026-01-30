@@ -4,6 +4,17 @@ import { Link } from 'react-router-dom';
 function Blog() {
   const blogPosts = [
     {
+      id: 2,
+      image: '/assets/images/Blog Assets/Blog 2/blog21.webp',
+      fallbackImage: '/assets/images/Blog Default.jpg',
+      category: 'Business',
+      date: '2026-01-31',
+      dateText: 'Jan 31, 2026',
+      title: 'Why Information and Data Quietly Run Our Lives—and Our Businesses',
+      excerpt: 'Data isn\'t just about numbers—it\'s about making better choices. Discover how information quietly shapes decisions and business success.',
+      link: '/blog/data-runs-our-lives',
+    },
+    {
       id: 1,
       image: '/assets/images/Blog Assets/Blog 1/BLOG 1 Hero Image .webp',
       fallbackImage: '/assets/images/Blog Default.jpg',
