@@ -78,6 +78,14 @@ function Resume() {
 
           <ol className="timeline-list">
             <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">IT Sales</h4>
+              <span>January 2026 — Till Now · 1 month</span>
+              <p className="timeline-text">
+                Nebs-IT Solution Ltd — Engaging with clients to understand their IT needs and provide tailored solutions. 
+                Building strong relationships to drive sales and ensure customer satisfaction.
+              </p>
+            </li>
+            <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Frontend Developer Intern</h4>
               <span>October 2025 — December 2025 · 3 months</span>
               <p className="timeline-text">
