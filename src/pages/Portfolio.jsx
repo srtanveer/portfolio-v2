@@ -72,21 +72,21 @@ function Portfolio() {
     <>
       <Helmet>
         <title>Portfolio - MD. Showaib Rahman Tanveer</title>
-        <meta name="description" content="Portfolio and projects by MD. Showaib Rahman Tanveer - Web applications built with React, Next.js, and modern technologies" />
-        <meta name="keywords" content="Portfolio, Web Development Projects, React Projects, Next.js Projects, Frontend Development, SRTANVEER Projects" />
+        <meta name="description" content="Portfolio and projects by MD. Showaib Rahman Tanveer - Frontend Developer. Web applications built with React, Next.js, and modern technologies" />
+        <meta name="keywords" content="Portfolio, Web Development Projects, React Projects, Next.js Projects, Frontend Development, Frontend Developer, SRTANVEER Projects, IT Sales Projects" />
         <link rel="canonical" href="https://srtanveer.dev/portfolio" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/portfolio" />
         <meta property="og:title" content="Portfolio - MD. Showaib Rahman Tanveer" />
-        <meta property="og:description" content="Portfolio and projects by MD. Showaib Rahman Tanveer - Web applications built with React, Next.js, and modern technologies" />
-        <meta property="og:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
+        <meta property="og:description" content="Portfolio and projects by MD. Showaib Rahman Tanveer - Frontend Developer. Web applications built with React, Next.js, and modern technologies" />
+        <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/portfolio" />
         <meta property="twitter:title" content="Portfolio - MD. Showaib Rahman Tanveer" />
-        <meta property="twitter:description" content="Portfolio and projects by MD. Showaib Rahman Tanveer - Web applications built with React, Next.js, and modern technologies" />
-        <meta property="twitter:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
+        <meta property="twitter:description" content="Portfolio and projects by MD. Showaib Rahman Tanveer - Frontend Developer. Web applications built with React, Next.js, and modern technologies" />
+        <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 
       <article className="portfolio active" data-page="portfolio">

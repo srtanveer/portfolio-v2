@@ -40,21 +40,21 @@ function Contact() {
     <>
       <Helmet>
         <title>Contact - MD. Showaib Rahman Tanveer</title>
-        <meta name="description" content="Get in touch with MD. Showaib Rahman Tanveer for collaborations, projects, or inquiries" />
-        <meta name="keywords" content="Contact, Get in Touch, Hire, Collaboration, SRTANVEER Contact" />
+        <meta name="description" content="Get in touch with MD. Showaib Rahman Tanveer - Frontend Developer, IT Sales professional, and Leads Provider for collaborations, projects, or inquiries" />
+        <meta name="keywords" content="Contact, Get in Touch, Hire, Collaboration, Frontend Developer Contact, IT Sales, Leads Provider, SRTANVEER Contact" />
         <link rel="canonical" href="https://srtanveer.dev/contact" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/contact" />
         <meta property="og:title" content="Contact - MD. Showaib Rahman Tanveer" />
-        <meta property="og:description" content="Get in touch with MD. Showaib Rahman Tanveer for collaborations, projects, or inquiries" />
-        <meta property="og:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
+        <meta property="og:description" content="Get in touch with MD. Showaib Rahman Tanveer - Frontend Developer, IT Sales professional, and Leads Provider for collaborations, projects, or inquiries" />
+        <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/contact" />
         <meta property="twitter:title" content="Contact - MD. Showaib Rahman Tanveer" />
         <meta property="twitter:description" content="Get in touch with MD. Showaib Rahman Tanveer for collaborations, projects, or inquiries" />
-        <meta property="twitter:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
+        <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 
       <article className="contact active" data-page="contact">

@@ -201,7 +201,7 @@ ${personalInfo.name}`;
         <meta property="og:url" content="https://srtanveer.dev/cover-letter-generator" />
         <meta property="og:title" content="Cover Letter Generator - MD. Showaib Rahman Tanveer" />
         <meta property="og:description" content="Generate personalized cover letters using AI based on job postings and professional background" />
-        <meta property="og:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
+        <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 
       <article className="cover-letter-generator active" data-page="cover-letter-generator">

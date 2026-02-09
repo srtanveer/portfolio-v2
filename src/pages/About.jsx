@@ -4,22 +4,22 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>MD. Showaib Rahman Tanveer - Aspiring Project Manager | Technical Background</title>
-        <meta name="description" content="Aspiring Project Manager with technical expertise in web development. Proven leadership in event management, team coordination, and community growth. President of GUCC with experience managing large-scale tech initiatives." />
-        <meta name="keywords" content="Project Manager, Technical Project Manager, Event Management, Team Leadership, Community Lead, Stakeholder Coordination, Project Coordination, SRTANVEER, Showaib Rahman Tanveer, GUCC President, University Club Management, Tech Event Organizer, Community Growth, Dhaka" />
+        <title>MD. Showaib Rahman Tanveer - Frontend Developer | IT Sales | Leads Provider | Aspiring Project Manager | Community Lead</title>
+        <meta name="description" content="Frontend Developer, IT Sales professional, and Leads Provider with expertise in web development. Aspiring Project Manager with proven leadership in event management, team coordination, and community growth. President of GUCC with experience managing large-scale tech initiatives." />
+        <meta name="keywords" content="Frontend Developer, IT Sales, Leads Provider, Project Manager, Technical Project Manager, Event Management, Team Leadership, Community Lead, Web Developer, React Developer, Stakeholder Coordination, SRTANVEER, Showaib Rahman Tanveer, GUCC President, Dhaka" />
         <link rel="canonical" href="https://srtanveer.dev/" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/" />
-        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Aspiring Project Manager | Technical Background" />
-        <meta property="og:description" content="Aspiring Project Manager with technical expertise. Proven leadership in event management, team coordination, and community growth." />
-        <meta property="og:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
+        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Frontend Developer | IT Sales | Leads Provider | Aspiring Project Manager | Community Lead" />
+        <meta property="og:description" content="Frontend Developer, IT Sales professional, and Leads Provider. Aspiring Project Manager with proven leadership in event management, team coordination, and community growth." />
+        <meta property="og:image" content="https://srtanveer.dev/assets/images/.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/" />
-        <meta property="twitter:title" content="MD Showaib Rahman Tanveer - Aspiring Project Manager | Technical Background" />
-        <meta property="twitter:description" content="Aspiring Project Manager with technical expertise. Proven leadership in event management, team coordination, and community growth." />
-        <meta property="twitter:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
+        <meta property="twitter:title" content="MD Showaib Rahman Tanveer - Frontend Developer | IT Sales | Leads Provider | Aspiring Project Manager | Community Lead" />
+        <meta property="twitter:description" content="Frontend Developer, IT Sales professional, and Leads Provider. Aspiring Project Manager with proven leadership in event management, team coordination, and community growth." />
+        <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 
       <article className="about active" data-page="about">
@@ -29,15 +29,16 @@ function About() {
 
         <section className="about-text">
           <p>
-            I'm an <b>aspiring Project Manager</b> with a strong technical foundation, passionate about leading teams and delivering impactful projects.
+            I'm a <b>Frontend Developer</b>, <b>IT Sales professional</b>, and <b>Leads Provider</b> with a passion for building user-centric web applications and driving business growth.
             As a <b>Computer Science student at Green University of Bangladesh</b> and former <b>Frontend Developer Intern at Digi5 Ltd</b>,
-            I combine technical understanding with proven leadership capabilities to drive successful project outcomes.
+            I combine hands-on development experience with sales expertise and leadership capabilities to deliver comprehensive solutions.
           </p>
           <p>
             Currently serving as <b>President of Green University Computer Club (GUCC)</b>, I lead <b>strategic planning, team coordination, and large-scale event execution</b>.
+            My diverse skill set spans <b>frontend development with React, IT sales strategies, lead generation, and project management</b>.
             I've successfully managed major initiatives including inter-university hackathons, department carnivals, and programming competitions,
-            demonstrating expertise in <b>stakeholder management, budget coordination, and cross-functional team leadership</b>. My goal is to leverage my technical background
-            and organizational skills to excel in project management roles.
+            demonstrating expertise in <b>stakeholder management, client relations, and cross-functional team leadership</b>. My goal is to leverage my technical background,
+            sales experience, and organizational skills to deliver impactful solutions and excel in project management roles.
           </p>
         </section>
 
@@ -46,6 +47,30 @@ function About() {
           <h3 className="h3 service-title">What I'm doing</h3>
 
           <ul className="service-list">
+            <li className="service-item">
+              <div className="service-icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+              <div className="service-content-box">
+                <h4 className="h4 service-item-title">Frontend Development</h4>
+                <p className="service-item-text">
+                  Building responsive and user-friendly web applications using React, JavaScript, HTML, and CSS. Creating seamless user experiences with modern frontend technologies and best practices.
+                </p>
+              </div>
+            </li>
+
+            <li className="service-item">
+              <div className="service-icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+              <div className="service-content-box">
+                <h4 className="h4 service-item-title">IT Sales & Lead Generation</h4>
+                <p className="service-item-text">
+                  Driving business growth through strategic IT sales initiatives and qualified lead generation. Connecting clients with technology solutions and building lasting business relationships.
+                </p>
+              </div>
+            </li>
+
             <li className="service-item">
               <div className="service-icon-box">
                 <ion-icon name="rocket-outline"></ion-icon>
@@ -63,44 +88,21 @@ function About() {
                 <ion-icon name="people-outline"></ion-icon>
               </div>
               <div className="service-content-box">
-                <h4 className="h4 service-item-title">Team Leadership</h4>
+                <h4 className="h4 service-item-title">Community Leadership</h4>
                 <p className="service-item-text">
-                  Building and leading high-performing teams. Fostering collaboration, delegating effectively, and driving team members toward shared goals with clear communication.
-                </p>
-              </div>
-            </li>
-
-            <li className="service-item">
-              <div className="service-icon-box">
-                <ion-icon name="file-tray-full-outline"></ion-icon>
-              </div>
-              <div className="service-content-box">
-                <h4 className="h4 service-item-title">Event Management</h4>
-                <p className="service-item-text">
-                  Planning and executing large-scale university events including hackathons, carnivals, and competitions. Managing budgets, vendors, sponsors, and cross-functional coordination.
-                </p>
-              </div>
-            </li>
-
-            <li className="service-item">
-              <div className="service-icon-box">
-                <ion-icon name="desktop-outline"></ion-icon>
-              </div>
-              <div className="service-content-box">
-                <h4 className="h4 service-item-title">Technical Understanding</h4>
-                <p className="service-item-text">
-                  Leveraging hands-on software development experience to effectively communicate with technical teams, understand technical requirements, and make informed project decisions.
+                  Building and leading high-performing teams and tech communities. Planning large-scale events, fostering collaboration, and driving members toward shared goals with clear communication.
                 </p>
               </div>
             </li>
           </ul>
         </section>
+        
 
         {/* Research */}
         <section className="research">
           <h3 className="h3 research-title">Research</h3>
           <div className="research-content">
-            <h4 className="h4 research-item-title">Sarcasm Analysis on Short Text (Ongoing Academic Thesis)</h4>
+            <h4 className="h4 research-item-title">Incongruity-Aware Sarcasm Detection</h4>
             <p className="research-supervisor">Supervised by Dr. Md. Saiful Azad, Dean FSE & Director IQAC, Green University of Bangladesh</p>
             <p className="research-text">
               Sarcasm Analysis is a challenging area within Natural Language Processing (NLP) and Sentiment Analysis.

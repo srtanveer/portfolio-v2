@@ -6,21 +6,21 @@ function Resume() {
     <>
       <Helmet>
         <title>Resume - MD. Showaib Rahman Tanveer</title>
-        <meta name="description" content="Aspiring Project Manager with technical background - MD. Showaib Rahman Tanveer. Proven experience in event management, team leadership, and tech project coordination." />
-        <meta name="keywords" content="Resume, CV, Project Manager, Technical Project Manager, Event Management, Team Leadership, Community Lead, SRTANVEER, Project Coordination" />
+        <meta name="description" content="Frontend Developer, IT Sales professional, and Leads Provider - MD. Showaib Rahman Tanveer. Aspiring Project Manager with proven experience in event management, team leadership, and tech project coordination." />
+        <meta name="keywords" content="Resume, CV, Frontend Developer, IT Sales, Leads Provider, Project Manager, Technical Project Manager, Event Management, Team Leadership, Community Lead, SRTANVEER, Project Coordination, React Developer" />
         <link rel="canonical" href="https://srtanveer.dev/resume" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/resume" />
         <meta property="og:title" content="Resume - MD. Showaib Rahman Tanveer" />
-        <meta property="og:description" content="Aspiring Project Manager with technical background. Proven experience in event management, team leadership, and tech project coordination." />
-        <meta property="og:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
+        <meta property="og:description" content="Frontend Developer, IT Sales professional, and Leads Provider. Aspiring Project Manager with proven experience in event management, team leadership, and tech project coordination." />
+        <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/resume" />
         <meta property="twitter:title" content="Resume - MD. Showaib Rahman Tanveer" />
-        <meta property="twitter:description" content="Aspiring Project Manager with technical background. Proven experience in event management, team leadership, and tech project coordination." />
-        <meta property="twitter:image" content="https://srtanveer.dev/assets/images/og-image.jpg" />
+        <meta property="twitter:description" content="Frontend Developer, IT Sales professional, and Leads Provider. Aspiring Project Manager with proven experience in event management, team leadership, and tech project coordination." />
+        <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 
       <article className="resume active" data-page="resume">
@@ -183,13 +183,31 @@ function Resume() {
           <h3 className="h3 skills-title">Skills Summary</h3>
 
           <div className="skills-summary-container">
+            {/* Frontend Development Skills */}
+            <div className="skill-category">
+              <div className="skill-category-header">
+                <ion-icon name="code-slash-outline"></ion-icon>
+                <h4 className="h4">Frontend Development:</h4>
+              </div>
+              <p className="skill-list-text">React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS, Responsive Design, RESTful APIs, Git/GitHub, npm, Vite, UI/UX Implementation, Component Architecture, State Management</p>
+            </div>
+
+            {/* IT Sales & Business Development */}
+            <div className="skill-category">
+              <div className="skill-category-header">
+                <ion-icon name="briefcase-outline"></ion-icon>
+                <h4 className="h4">IT Sales & Business Development:</h4>
+              </div>
+              <p className="skill-list-text">IT Sales Strategy, Lead Generation, Client Relations, Business Development, Solution Selling, Market Research, CRM Management, B2B Sales, Proposal Writing, Negotiation</p>
+            </div>
+
             {/* Project Management Skills */}
             <div className="skill-category">
               <div className="skill-category-header">
                 <ion-icon name="trending-up-outline"></ion-icon>
                 <h4 className="h4">Project Management:</h4>
               </div>
-              <p className="skill-list-text">Event Management, Strategic Planning, Stakeholder Coordination, Budget Management, Timeline Planning, Risk Management</p>
+              <p className="skill-list-text">Event Management, Strategic Planning, Stakeholder Coordination, Budget Management, Timeline Planning, Risk Management, Agile Methodologies, Sprint Planning, Project Documentation</p>
             </div>
 
             {/* Leadership & Soft Skills */}
@@ -198,16 +216,7 @@ function Resume() {
                 <ion-icon name="people-outline"></ion-icon>
                 <h4 className="h4">Leadership & Soft Skills:</h4>
               </div>
-              <p className="skill-list-text">Team Leadership, Cross-functional Collaboration, Communication, Requirement Gathering, Task Delegation, People Management, Time Management, Conflict Resolution</p>
-            </div>
-
-            {/* Technical Understanding */}
-            <div className="skill-category">
-              <div className="skill-category-header">
-                <ion-icon name="code-slash-outline"></ion-icon>
-                <h4 className="h4">Technical Background:</h4>
-              </div>
-              <p className="skill-list-text">Web Development (React, Next.js), Software Development Lifecycle, Agile Methodologies, Technical Documentation</p>
+              <p className="skill-list-text">Team Leadership, Cross-functional Collaboration, Communication, Requirement Gathering, Task Delegation, People Management, Time Management, Conflict Resolution, Public Speaking, Mentoring</p>
             </div>
 
             {/* Tools & Platforms */}
@@ -216,7 +225,7 @@ function Resume() {
                 <ion-icon name="construct-outline"></ion-icon>
                 <h4 className="h4">Tools & Platforms:</h4>
               </div>
-              <p className="skill-list-text">MS Office Suite, Google Workspace, Project Documentation Tools, Canva, WordPress</p>
+              <p className="skill-list-text">VS Code, Figma, Postman, GitHub/Git, Netlify, Vercel, MS Office Suite, Google Workspace, Canva, WordPress, Trello, Slack, Notion</p>
             </div>
 
             {/* Additional Skills */}
@@ -225,7 +234,7 @@ function Resume() {
                 <ion-icon name="analytics-outline"></ion-icon>
                 <h4 className="h4">Additional Competencies:</h4>
               </div>
-              <p className="skill-list-text">Data Analysis, Report Building, Marketing Strategy, Community Growth, Client Relations, Quality Assurance</p>
+              <p className="skill-list-text">Data Analysis, Report Building, Marketing Strategy, Community Growth, Client Relations, Quality Assurance, Technical Support, Problem Solving, SEO Optimization, Content Management</p>
             </div>
           </div>
         </section>

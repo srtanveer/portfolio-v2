@@ -7,7 +7,8 @@ function Sidebar() {
 
   const photos = [
     '/assets/images/profile-photo-2.webp',
-    '/assets/images/profile-photo.jpg'
+    '/assets/images/profile-photo.jpg',
+    '/assets/images/profile-photo-3.webp',
   ];
 
   useEffect(() => {
@@ -18,7 +19,7 @@ function Sidebar() {
         setCurrentPhotoIndex((prevIndex) => (prevIndex + 1) % photos.length);
         setPhotoOpacity(1);
       }, 300);
-    }, 10000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
@@ -42,8 +43,9 @@ function Sidebar() {
         <div className="info-content">
           <h1 className="name" title="MD. SHOWAIB RAHMAN TANVEER">MD. SHOWAIB RAHMAN TANVEER</h1>
           <p className="title">
-             / Aspiring Project Manager /<br />
-            / Community Lead / / IT Sales /
+            Frontend Developer | IT Sales<br />
+            Leads Provider | Aspiring PM<br />
+            Community Lead
           </p>
         </div>
 
@@ -83,7 +85,7 @@ function Sidebar() {
             </div>
             <div className="contact-info">
               <p className="contact-title">Working at</p>
-              <p className="contact-link">President at GUCC | Former Dev Intern at Digi5 Ltd</p>
+              <p className="contact-link">IT Sales at Nebs-IT Solution Ltd | President at GUCC | Former Dev Intern at Digi5 Ltd</p>
             </div>
           </li>
 
@@ -110,6 +112,12 @@ function Sidebar() {
           <li className="social-item">
             <a href="https://www.linkedin.com/in/srtanveer" className="social-link" target="_blank" rel="noopener noreferrer">
               <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li className="social-item">
+            <a href="https://wa.me/+8801569104401" className="social-link" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+              <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
           </li>
 
