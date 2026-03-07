@@ -209,6 +209,52 @@ html { font-family: var(--ff-poppins); }
 body { background: var(--smoky-black); }
 
 /*-----------------------------------*\
+  #SCROLLBAR
+\*-----------------------------------*/
+
+/* For Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--smoky-black);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--crystal-cyan), var(--neon-purple));
+  border-radius: 10px;
+  border: 2px solid var(--smoky-black);
+  box-shadow: 0 0 10px var(--crystal-cyan);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, hsl(180, 100%, 70%), hsl(260, 100%, 80%));
+  box-shadow: 0 0 15px var(--crystal-cyan), 0 0 20px var(--neon-purple);
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--crystal-cyan) var(--smoky-black);
+}
+
+/* Light mode scrollbar */
+[data-theme="light"] ::-webkit-scrollbar-track {
+  background: var(--onyx);
+}
+
+[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, hsl(180, 100%, 50%), hsl(260, 100%, 60%));
+  border: 2px solid var(--onyx);
+}
+
+[data-theme="light"] * {
+  scrollbar-color: hsl(180, 100%, 50%) var(--onyx);
+}
+
+/*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
 

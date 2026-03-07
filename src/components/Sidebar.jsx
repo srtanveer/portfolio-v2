@@ -43,9 +43,8 @@ function Sidebar() {
         <div className="info-content">
           <h1 className="name" title="MD. SHOWAIB RAHMAN TANVEER">MD. SHOWAIB RAHMAN TANVEER</h1>
           <p className="title">
-            Frontend Developer | IT Sales<br />
-            Leads Provider | Aspiring PM<br />
-            Community Lead
+            Frontend Developer<br />
+            Aspiring PM | Community Lead
           </p>
         </div>
 

@@ -4,21 +4,21 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>MD. Showaib Rahman Tanveer - Frontend Developer | IT Sales | Leads Provider | Aspiring Project Manager | Community Lead</title>
-        <meta name="description" content="Frontend Developer, IT Sales professional, and Leads Provider with expertise in web development. Aspiring Project Manager with proven leadership in event management, team coordination, and community growth. President of GUCC with experience managing large-scale tech initiatives." />
-        <meta name="keywords" content="Frontend Developer, IT Sales, Leads Provider, Project Manager, Technical Project Manager, Event Management, Team Leadership, Community Lead, Web Developer, React Developer, Stakeholder Coordination, SRTANVEER, Showaib Rahman Tanveer, GUCC President, Dhaka" />
+        <title>MD. Showaib Rahman Tanveer - Frontend Developer | Aspiring Project Manager | Community Lead</title>
+        <meta name="description" content="Frontend Developer with expertise in web development. Aspiring Project Manager with proven leadership in event management, team coordination, and community growth. President of GUCC with experience managing large-scale tech initiatives." />
+        <meta name="keywords" content="Frontend Developer, Project Manager, Technical Project Manager, Event Management, Team Leadership, Community Lead, Web Developer, React Developer, Stakeholder Coordination, SRTANVEER, Showaib Rahman Tanveer, GUCC President, Dhaka" />
         <link rel="canonical" href="https://srtanveer.dev/" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/" />
-        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Frontend Developer | IT Sales | Leads Provider | Aspiring Project Manager | Community Lead" />
-        <meta property="og:description" content="Frontend Developer, IT Sales professional, and Leads Provider. Aspiring Project Manager with proven leadership in event management, team coordination, and community growth." />
+        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Frontend Developer | Aspiring Project Manager | Community Lead" />
+        <meta property="og:description" content="Frontend Developer and Aspiring Project Manager with proven leadership in event management, team coordination, and community growth." />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/" />
-        <meta property="twitter:title" content="MD Showaib Rahman Tanveer - Frontend Developer | IT Sales | Leads Provider | Aspiring Project Manager | Community Lead" />
-        <meta property="twitter:description" content="Frontend Developer, IT Sales professional, and Leads Provider. Aspiring Project Manager with proven leadership in event management, team coordination, and community growth." />
+        <meta property="twitter:title" content="MD Showaib Rahman Tanveer - Frontend Developer | Aspiring Project Manager | Community Lead" />
+        <meta property="twitter:description" content="Frontend Developer and Aspiring Project Manager with proven leadership in event management, team coordination, and community growth." />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 
@@ -29,16 +29,16 @@ function About() {
 
         <section className="about-text">
           <p>
-            I'm a <b>Frontend Developer</b>, <b>IT Sales professional</b>, and <b>Leads Provider</b> with a passion for building user-centric web applications and driving business growth.
-            As a <b>Computer Science student at Green University of Bangladesh</b> and former <b>Frontend Developer Intern at Digi5 Ltd</b>,
-            I combine hands-on development experience with sales expertise and leadership capabilities to deliver comprehensive solutions.
+            I'm a <b>Frontend Developer</b> with a passion for building user-centric web applications.
+            I recently completed my <b>B.Sc. in Computer Science and Engineering from Green University of Bangladesh (GUB)</b> and worked as a <b>Frontend Developer Intern at Digi5 Ltd</b>,
+            where I gained hands-on development experience and leadership capabilities to deliver comprehensive solutions.
           </p>
           <p>
             Currently serving as <b>President of Green University Computer Club (GUCC)</b>, I lead <b>strategic planning, team coordination, and large-scale event execution</b>.
-            My diverse skill set spans <b>frontend development with React, IT sales strategies, lead generation, and project management</b>.
+            My diverse skill set spans <b>frontend development with React and project management</b>.
             I've successfully managed major initiatives including inter-university hackathons, department carnivals, and programming competitions,
-            demonstrating expertise in <b>stakeholder management, client relations, and cross-functional team leadership</b>. My goal is to leverage my technical background,
-            sales experience, and organizational skills to deliver impactful solutions and excel in project management roles.
+            demonstrating expertise in <b>stakeholder management and cross-functional team leadership</b>. My goal is to leverage my technical background
+            and organizational skills to deliver impactful solutions and excel in project management roles.
           </p>
         </section>
 
@@ -64,9 +64,9 @@ function About() {
                 <ion-icon name="briefcase-outline"></ion-icon>
               </div>
               <div className="service-content-box">
-                <h4 className="h4 service-item-title">IT Sales & Lead Generation</h4>
+                <h4 className="h4 service-item-title">Technical Problem Solving</h4>
                 <p className="service-item-text">
-                  Driving business growth through strategic IT sales initiatives and qualified lead generation. Connecting clients with technology solutions and building lasting business relationships.
+                  Analyzing complex technical challenges and developing effective solutions. Applying analytical thinking and technical knowledge to solve real-world problems efficiently.
                 </p>
               </div>
             </li>
@@ -119,7 +119,7 @@ function About() {
           <ul className="leadership-list">
             <li className="leadership-item">
               <h4 className="h4 leadership-item-title">President - GUCC</h4>
-              <p className="leadership-org">Green University Computer Club, 2025 - Present</p>
+              <p className="leadership-org"><a href="https://gucc.green.edu.bd/" target="_blank" rel="noopener noreferrer">Green University Computer Club, 2025 - Present</a></p>
               <p className="leadership-text">Leading strategic planning, policy making, team leadership, budget management, and event coordination for the university's premier tech club. Managing multiple concurrent projects and driving community growth initiatives.</p>
             </li>
           </ul>
