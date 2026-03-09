@@ -15,7 +15,7 @@ function DownloadCV() {
         onClick={handleDownload}
       >
         <ion-icon name="download-outline"></ion-icon>
-        <span>Download CV (PDF)</span>
+        <span>Get my CV (PDF)</span>
       </button>
     </div>
   );
