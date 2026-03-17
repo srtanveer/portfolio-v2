@@ -50,21 +50,21 @@ function Blog() {
   return (
     <>
       <Helmet>
-        <title>Blog - MD. Showaib Rahman Tanveer</title>
-        <meta name="description" content="Blog posts and articles by MD. Showaib Rahman Tanveer - Frontend Developer, IT Sales professional, and Community Lead. Topics include web development, project management, event organization, leadership, and technology" />
-        <meta name="keywords" content="Blog, Articles, Frontend Development, IT Sales, Project Management, Event Organization, Leadership, Technology, SRTANVEER Blog, Web Development Blog" />
+        <title>Blog - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead</title>
+        <meta name="description" content="Blog posts by MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead covering project management, business, leadership, and technology." />
+        <meta name="keywords" content="Blog, Articles, Aspiring Project Manager, IT Sales, Community Lead, Leadership, Technology, Business, SRTANVEER Blog" />
         <link rel="canonical" href="https://srtanveer.dev/blog" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/blog" />
-        <meta property="og:title" content="Blog - MD. Showaib Rahman Tanveer" />
-        <meta property="og:description" content="Blog posts and articles by MD. Showaib Rahman Tanveer about web development, project management, event organization, leadership, and technology" />
+        <meta property="og:title" content="Blog - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
+        <meta property="og:description" content="Blog posts by an Aspiring Project Manager | IT Sales | Community Lead covering project management, business, leadership, and technology." />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/blog" />
-        <meta property="twitter:title" content="Blog - MD. Showaib Rahman Tanveer" />
-        <meta property="twitter:description" content="Blog posts and articles about web development, event organization, and technology" />
+        <meta property="twitter:title" content="Blog - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
+        <meta property="twitter:description" content="Blog posts by an Aspiring Project Manager | IT Sales | Community Lead covering project management, business, leadership, and technology." />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 

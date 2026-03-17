@@ -4,21 +4,21 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>MD. Showaib Rahman Tanveer - Frontend Developer | Aspiring Project Manager | Community Lead</title>
-        <meta name="description" content="Frontend Developer with expertise in web development. Aspiring Project Manager with proven leadership in event management, team coordination, and community growth. President of GUCC with experience managing large-scale tech initiatives." />
-        <meta name="keywords" content="Frontend Developer, Project Manager, Technical Project Manager, Event Management, Team Leadership, Community Lead, Web Developer, React Developer, Stakeholder Coordination, SRTANVEER, Showaib Rahman Tanveer, GUCC President, Dhaka" />
+        <title>MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead</title>
+        <meta name="description" content="MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead with proven leadership in event management, team coordination, community growth, and technical execution." />
+        <meta name="keywords" content="Aspiring Project Manager, IT Sales, Community Lead, Project Manager, Technical Project Manager, Event Management, Team Leadership, Stakeholder Coordination, SRTANVEER, Showaib Rahman Tanveer, GUCC President, Dhaka" />
         <link rel="canonical" href="https://srtanveer.dev/" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/" />
-        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Frontend Developer | Aspiring Project Manager | Community Lead" />
-        <meta property="og:description" content="Frontend Developer and Aspiring Project Manager with proven leadership in event management, team coordination, and community growth." />
-        <meta property="og:image" content="https://srtanveer.dev/assets/images/.jpg" />
+        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead" />
+        <meta property="og:description" content="Aspiring Project Manager | IT Sales | Community Lead with proven leadership in event management, team coordination, and community growth." />
+        <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/" />
-        <meta property="twitter:title" content="MD Showaib Rahman Tanveer - Frontend Developer | Aspiring Project Manager | Community Lead" />
-        <meta property="twitter:description" content="Frontend Developer and Aspiring Project Manager with proven leadership in event management, team coordination, and community growth." />
+        <meta property="twitter:title" content="MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead" />
+        <meta property="twitter:description" content="Aspiring Project Manager | IT Sales | Community Lead with proven leadership in event management, team coordination, and community growth." />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 

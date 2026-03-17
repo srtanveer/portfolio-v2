@@ -5,21 +5,21 @@ function Resume() {
   return (
     <>
       <Helmet>
-        <title>Resume - MD. Showaib Rahman Tanveer</title>
-        <meta name="description" content="Frontend Developer - MD. Showaib Rahman Tanveer. Aspiring Project Manager with proven experience in event management, team leadership, and tech project coordination." />
-        <meta name="keywords" content="Resume, CV, Frontend Developer, Project Manager, Technical Project Manager, Event Management, Team Leadership, Community Lead, SRTANVEER, Project Coordination, React Developer" />
+        <title>Resume - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead</title>
+        <meta name="description" content="Resume of MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead with experience in event management, team leadership, and tech project coordination." />
+        <meta name="keywords" content="Resume, CV, Aspiring Project Manager, IT Sales, Community Lead, Project Manager, Technical Project Manager, Event Management, Team Leadership, SRTANVEER, Project Coordination" />
         <link rel="canonical" href="https://srtanveer.dev/resume" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/resume" />
-        <meta property="og:title" content="Resume - MD. Showaib Rahman Tanveer" />
-        <meta property="og:description" content="Frontend Developer and Aspiring Project Manager with proven experience in event management, team leadership, and tech project coordination." />
+        <meta property="og:title" content="Resume - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
+        <meta property="og:description" content="Resume of an Aspiring Project Manager | IT Sales | Community Lead with proven experience in event management, team leadership, and tech project coordination." />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/resume" />
-        <meta property="twitter:title" content="Resume - MD. Showaib Rahman Tanveer" />
-        <meta property="twitter:description" content="Frontend Developer and Aspiring Project Manager with proven experience in event management, team leadership, and tech project coordination." />
+        <meta property="twitter:title" content="Resume - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
+        <meta property="twitter:description" content="Resume of an Aspiring Project Manager | IT Sales | Community Lead with proven experience in event management, team leadership, and tech project coordination." />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 
