@@ -43,8 +43,7 @@ function Sidebar() {
         <div className="info-content">
           <h1 className="name" title="MD. SHOWAIB RAHMAN TANVEER">MD. SHOWAIB RAHMAN TANVEER</h1>
           <p className="title">
-            Frontend Developer<br />
-            Aspiring PM | Community Lead
+            Jr. Executive (IT), Biometrics.BD LTD <br /> Aspiring PM | Community Lead
           </p>
         </div>
 
@@ -65,6 +64,7 @@ function Sidebar() {
             <div className="contact-info">
               <p className="contact-title">Email</p>
               <a href="mailto:srtanveer.cse@gmail.com" className="contact-link">srtanveer.cse@gmail.com</a>
+              <a href="mailto:showaib.tanveer@biometrics-bd.com" className="contact-link">showaib.tanveer@biometrics-bd.com</a>
             </div>
           </li>
 
@@ -84,7 +84,7 @@ function Sidebar() {
             </div>
             <div className="contact-info">
               <p className="contact-title">Working at</p>
-              <p className="contact-link">IT Sales at Nebs-IT Solution Ltd | President at GUCC | Former Dev Intern at Digi5 Ltd</p>
+              <p className="contact-link">Biometrics.BD LTD</p>
             </div>
           </li>
 

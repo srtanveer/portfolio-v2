@@ -29,16 +29,13 @@ function About() {
 
         <section className="about-text">
           <p>
-            I'm a <b>Frontend Developer</b> with a passion for building user-centric web applications.
-            I recently completed my <b>B.Sc. in Computer Science and Engineering from Green University of Bangladesh (GUB)</b> and worked as a <b>Frontend Developer Intern at Digi5 Ltd</b>,
-            where I gained hands-on development experience and leadership capabilities to deliver comprehensive solutions.
+            I recently completed my B.Sc. in Computer Science and Engineering from Green University of Bangladesh (GUB) and worked as a Frontend Developer Intern at Digi5 Ltd, gaining hands-on experience in development and team collaboration.
           </p>
           <p>
-            Currently serving as <b>President of Green University Computer Club (GUCC)</b>, I lead <b>strategic planning, team coordination, and large-scale event execution</b>.
-            My diverse skill set spans <b>frontend development with React and project management</b>.
-            I've successfully managed major initiatives including inter-university hackathons, department carnivals, and programming competitions,
-            demonstrating expertise in <b>stakeholder management and cross-functional team leadership</b>. My goal is to leverage my technical background
-            and organizational skills to deliver impactful solutions and excel in project management roles.
+            Currently, I am working as a <b>Junior Executive at Biometrics.BD Limited,</b> contributing to IT solutions, client coordination, and business operations. Alongside this, I serve as the President of the Green University Computer Club (GUCC), leading team coordination and organizing large-scale tech events.
+          </p>
+          <p>
+            I aim to leverage my technical background and leadership experience to deliver impactful solutions and grow in project management and tech-driven roles.
           </p>
         </section>
 

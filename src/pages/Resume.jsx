@@ -77,8 +77,15 @@ function Resume() {
 
           <ol className="timeline-list">
             <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Junior Executive (IT)</h4>
+              <span>April 2026 — Till Now · 1 month</span>
+              <p className="timeline-text">
+                <a href="https://www.biometrics-bd.com/" target="_blank" rel="noopener noreferrer">Biometrics.BD Limited</a> — Contributing to IT solutions, client support, and business operations while gaining hands-on experience in coordination and service delivery. Actively involved in supporting end-to-end solutions in a dynamic, performance-driven environment, enhancing professional and technical skills.
+              </p>
+            </li>
+            <li className="timeline-item">
               <h4 className="h4 timeline-item-title">IT Sales</h4>
-              <span>January 2026 — Till Now · 2 months</span>
+              <span>January 2026 — March 2026 · 3 months</span>
               <p className="timeline-text">
                 <a href="https://www.nebs-it.com/" target="_blank" rel="noopener noreferrer">Nebs-IT Solution Ltd</a> — Engaging with clients to understand their technology needs and provide tailored IT solutions. 
                 Building strong relationships to support business growth and ensure customer satisfaction.

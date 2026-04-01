@@ -526,7 +526,7 @@ main {
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
-  font-size: var(--fs-7);
+  font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: auto;
   max-width: 100%;
