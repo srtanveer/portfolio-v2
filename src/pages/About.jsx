@@ -29,13 +29,16 @@ function About() {
 
         <section className="about-text">
           <p>
-            I recently completed my B.Sc. in Computer Science and Engineering from Green University of Bangladesh (GUB) and worked as a Frontend Developer Intern at Digi5 Ltd, gaining hands-on experience in development and team collaboration.
+            I completed my 𝗕.𝗦𝗰. 𝗶𝗻 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 𝗮𝗻𝗱 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 from 𝗚𝗿𝗲𝗲𝗻 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 𝗼𝗳 𝗕𝗮𝗻𝗴𝗹𝗮𝗱𝗲𝘀𝗵 (𝗚𝗨𝗕).
           </p>
           <p>
-            Currently, I am working as a <b>Junior Executive at Biometrics.BD Limited,</b> contributing to IT solutions, client coordination, and business operations. Alongside this, I serve as the President of the Green University Computer Club (GUCC), leading team coordination and organizing large-scale tech events.
+            Currently, I work as a 𝗝𝘂𝗻𝗶𝗼𝗿 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝘃𝗲 (𝗜𝗧) in the 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗗𝗲𝗽𝗮𝗿𝘁𝗺𝗲𝗻𝘁 at 𝗕𝗶𝗼𝗺𝗲𝘁𝗿𝗶𝗰𝘀.𝗕𝗗 𝗟𝗶𝗺𝗶𝘁𝗲𝗱, contributing to IT operations, client coordination, and project execution.
           </p>
           <p>
-            I aim to leverage my technical background and leadership experience to deliver impactful solutions and grow in project management and tech-driven roles.
+            I served as the 𝗣𝗿𝗲𝘀𝗶𝗱𝗲𝗻𝘁 of the 𝗚𝗿𝗲𝗲𝗻 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗖𝗹𝘂𝗯 (𝗚𝗨𝗖𝗖), leading team coordination and organizing impactful tech events.
+          </p>
+          <p>
+            I’m focused on growing in 𝗽𝗿𝗼𝗷𝗲𝗰𝘁 𝗺𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 and 𝘁𝗲𝗰𝗵-𝗱𝗿𝗶𝘃𝗲𝗻 𝗿𝗼𝗹𝗲𝘀.
           </p>
         </section>
 
