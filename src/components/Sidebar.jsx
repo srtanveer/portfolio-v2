@@ -43,7 +43,7 @@ function Sidebar() {
         <div className="info-content">
           <h1 className="name" title="MD. SHOWAIB RAHMAN TANVEER">MD. SHOWAIB RAHMAN TANVEER</h1>
           <p className="title">
-            Jr. Executive (IT), Biometrics.BD LTD <br /> Aspiring PM | Community Lead
+            Jr. Executive (Solution Architect), Biometrics.BD LTD
           </p>
         </div>
 
@@ -85,6 +85,7 @@ function Sidebar() {
             <div className="contact-info">
               <p className="contact-title">Working at</p>
               <p className="contact-link">Biometrics.BD LTD</p>
+              <p className="contact-link">IEEE CS BDC GSMF</p>
             </div>
           </li>
 

@@ -5,23 +5,23 @@ function BlogPost_AIGuiltSyndrome() {
   return (
     <>
       <Helmet>
-        <title>Stop This Guilt Syndrome: Using AI Isn't Academic Infidelity - MD. Showaib Rahman Tanveer</title>
-        <meta name="description" content="It's time to end the unnecessary guilt around using AI tools. True innovation comes from fearlessly exploring new methods, not clinging to old ones." />
-        <meta name="keywords" content="AI, Artificial Intelligence, Academic Writing, Creativity, Innovation, AI Tools, ChatGPT, Technology Ethics" />
+        <title>Stop This Guilt Syndrome: Using AI Isn't Academic Infidelity - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management</title>
+        <meta name="description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta name="keywords" content="Solution Architect, Business IT Integration, GUCC, IEEE, Community Lead, Project Management" />
         <link rel="canonical" href="https://srtanveer.dev/blog/ai-guilt-syndrome" />
         
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://srtanveer.dev/blog/ai-guilt-syndrome" />
-        <meta property="og:title" content="Stop This Guilt Syndrome: Using AI Isn't Academic Infidelity" />
-        <meta property="og:description" content="It's time to end the unnecessary guilt around using AI tools. True innovation comes from fearlessly exploring new methods, not clinging to old ones." />
+        <meta property="og:title" content="Stop This Guilt Syndrome: Using AI Isn't Academic Infidelity | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="og:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/Blog Assets/Blog 1/BLOG 1 Hero Image .webp" />
         <meta property="article:published_time" content="2025-11-06" />
         <meta property="article:author" content="MD. Showaib Rahman Tanveer" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/blog/ai-guilt-syndrome" />
-        <meta property="twitter:title" content="Stop This Guilt Syndrome: Using AI Isn't Academic Infidelity" />
-        <meta property="twitter:description" content="It's time to end the unnecessary guilt around using AI tools. True innovation comes from fearlessly exploring new methods, not clinging to old ones." />
+        <meta property="twitter:title" content="Stop This Guilt Syndrome: Using AI Isn't Academic Infidelity | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="twitter:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/Blog Assets/Blog 1/BLOG 1 Hero Image .webp" />
       </Helmet>
 

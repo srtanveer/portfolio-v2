@@ -4,21 +4,21 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead</title>
-        <meta name="description" content="MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead with proven leadership in event management, team coordination, community growth, and technical execution." />
-        <meta name="keywords" content="Aspiring Project Manager, IT Sales, Community Lead, Project Manager, Technical Project Manager, Event Management, Team Leadership, Stakeholder Coordination, SRTANVEER, Showaib Rahman Tanveer, GUCC President, Dhaka" />
+        <title>MD. Showaib Rahman Tanveer - Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management</title>
+        <meta name="description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta name="keywords" content="Solution Architect, Business IT Integration, GUCC, IEEE, Community Lead, Project Management" />
         <link rel="canonical" href="https://srtanveer.dev/" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/" />
-        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead" />
-        <meta property="og:description" content="Aspiring Project Manager | IT Sales | Community Lead with proven leadership in event management, team coordination, and community growth." />
+        <meta property="og:title" content="MD. Showaib Rahman Tanveer - Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="og:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/" />
-        <meta property="twitter:title" content="MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead" />
-        <meta property="twitter:description" content="Aspiring Project Manager | IT Sales | Community Lead with proven leadership in event management, team coordination, and community growth." />
+        <meta property="twitter:title" content="MD. Showaib Rahman Tanveer - Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="twitter:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 
@@ -32,7 +32,7 @@ function About() {
             I recently completed my B.Sc. in Computer Science and Engineering from Green University of Bangladesh (GUB) and worked as a Frontend Developer Intern at Digi5 Ltd, gaining hands-on experience in development and team collaboration.
           </p>
           <p>
-            Currently, I am working as a <b>Junior Executive at Biometrics.BD Limited,</b> contributing to IT solutions, client coordination, and business operations. Alongside this, I serve as the President of the Green University Computer Club (GUCC), leading team coordination and organizing large-scale tech events.
+            Currently, I am working as a <b>Junior Executive (Solution Architect) at Biometrics.BD Limited,</b> contributing to IT solutions, client coordination, and business operations. Alongside this, I'm serving as Public Relations Coordinator of IEEE CS BDC Graduate Student Member Forum (GSMF) & I served as the President of the Green University Computer Club (GUCC), leading team coordination and organizing large-scale tech events.
           </p>
           <p>
             I aim to leverage my technical background and leadership experience to deliver impactful solutions and grow in project management and tech-driven roles.

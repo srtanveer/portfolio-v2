@@ -71,21 +71,21 @@ function Portfolio() {
   return (
     <>
       <Helmet>
-        <title>Portfolio - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead</title>
-        <meta name="description" content="Portfolio of MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead featuring web projects, product execution, and technical work." />
-        <meta name="keywords" content="Portfolio, Aspiring Project Manager, IT Sales, Community Lead, Web Projects, React Projects, Next.js Projects, SRTANVEER Projects" />
+        <title>Portfolio - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management</title>
+        <meta name="description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta name="keywords" content="Solution Architect, Business IT Integration, GUCC, IEEE, Community Lead, Project Management" />
         <link rel="canonical" href="https://srtanveer.dev/portfolio" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/portfolio" />
-        <meta property="og:title" content="Portfolio - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
-        <meta property="og:description" content="Portfolio of an Aspiring Project Manager | IT Sales | Community Lead featuring web projects, product execution, and technical work." />
+        <meta property="og:title" content="Portfolio - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="og:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/portfolio" />
-        <meta property="twitter:title" content="Portfolio - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
-        <meta property="twitter:description" content="Portfolio of an Aspiring Project Manager | IT Sales | Community Lead featuring web projects, product execution, and technical work." />
+        <meta property="twitter:title" content="Portfolio - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="twitter:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 

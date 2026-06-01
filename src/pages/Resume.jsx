@@ -5,21 +5,21 @@ function Resume() {
   return (
     <>
       <Helmet>
-        <title>Resume - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead</title>
-        <meta name="description" content="Resume of MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead with experience in event management, team leadership, and tech project coordination." />
-        <meta name="keywords" content="Resume, CV, Aspiring Project Manager, IT Sales, Community Lead, Project Manager, Technical Project Manager, Event Management, Team Leadership, SRTANVEER, Project Coordination" />
+        <title>Resume - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management</title>
+        <meta name="description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta name="keywords" content="Solution Architect, Business IT Integration, GUCC, IEEE, Community Lead, Project Management" />
         <link rel="canonical" href="https://srtanveer.dev/resume" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/resume" />
-        <meta property="og:title" content="Resume - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
-        <meta property="og:description" content="Resume of an Aspiring Project Manager | IT Sales | Community Lead with proven experience in event management, team leadership, and tech project coordination." />
+        <meta property="og:title" content="Resume - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="og:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/resume" />
-        <meta property="twitter:title" content="Resume - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
-        <meta property="twitter:description" content="Resume of an Aspiring Project Manager | IT Sales | Community Lead with proven experience in event management, team leadership, and tech project coordination." />
+        <meta property="twitter:title" content="Resume - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="twitter:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 
@@ -42,7 +42,7 @@ function Resume() {
           <ol className="timeline-list">
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">B.Sc. in Computer Science and Engineering</h4>
-              <span>Graduated January 2026</span>
+              <span>Graduated February 2026</span>
               <p className="timeline-text">
                 <a href="https://www.green.edu.bd/" target="_blank" rel="noopener noreferrer">Green University of Bangladesh</a> — Completed B.Sc. in Computer Science and Engineering with strong technical foundation in software development lifecycle, team collaboration, and project management.
               </p>
@@ -77,10 +77,14 @@ function Resume() {
 
           <ol className="timeline-list">
             <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">Junior Executive (IT)</h4>
-              <span>April 2026 — Till Now · 1 month</span>
+              <h4 className="h4 timeline-item-title">Junior Executive (Solution Architect)</h4>
+              <span>February 2026 — Till Now · 1 month</span>
               <p className="timeline-text">
-                <a href="https://www.biometrics-bd.com/" target="_blank" rel="noopener noreferrer">Biometrics.BD Limited</a> — Contributing to IT solutions, client support, and business operations while gaining hands-on experience in coordination and service delivery. Actively involved in supporting end-to-end solutions in a dynamic, performance-driven environment, enhancing professional and technical skills.
+                <a href="https://www.biometrics-bd.com/" target="_blank" rel="noopener noreferrer">Biometrics.BD Limited</a> — Working with leading OEMs such as Oracle, HPE, Dell, Cisco and many more to deliver enterprise IT solutions.
+                <br />
+                — Supporting government and private organizations in system integration and technology modernization
+                <br />
+                — Contributing to sustainable and scalable digital transformation initiatives
               </p>
             </li>
             <li className="timeline-item">
@@ -140,10 +144,17 @@ function Resume() {
           <ol className="timeline-list">
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">President</h4>
-              <span>2025 — Present</span>
+              <span>2025 — 2026</span>
               <p className="timeline-text">
                 <a href="https://gucc.green.edu.bd/" target="_blank" rel="noopener noreferrer">Green University Computer Club (GUCC)</a> — Leading university-wide tech club with full responsibility for strategic planning, 
                 policy making, and operational oversight. Managing executive team, coordinating multiple concurrent events, and driving community growth initiatives.
+              </p>
+            </li>
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Public Relations Coordinator</h4>
+              <span>2026 to Present</span>
+              <p className="timeline-text">
+                <a href="https://www.facebook.com/ieeecsbdcgsm/" target="_blank" rel="noopener noreferrer">IEEE CS BDC Graduate Student Member Forum (GSMF)</a> — Manage communications and promote activities, ensuring effective engagement with members, partners, and the public.
               </p>
             </li>
 
@@ -195,7 +206,7 @@ function Resume() {
                 <ion-icon name="code-slash-outline"></ion-icon>
                 <h4 className="h4">Frontend Development:</h4>
               </div>
-              <p className="skill-list-text">React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS, Responsive Design, Git/GitHub, npm, Vite, UI/UX Implementation, Component Architecture, State Management</p>
+              <p className="skill-list-text">React.js, Next.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Responsive Design, Git/GitHub, npm, UI/UX Implementation, Component Architecture, State Management</p>
             </div>
 
             {/* Technical & Business Skills */}

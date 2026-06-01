@@ -39,21 +39,21 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead</title>
-        <meta name="description" content="Get in touch with MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead for collaborations, projects, and professional inquiries." />
-        <meta name="keywords" content="Contact, Get in Touch, Hire, Collaboration, Aspiring Project Manager, IT Sales, Community Lead, SRTANVEER Contact" />
+        <title>Contact - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management</title>
+        <meta name="description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta name="keywords" content="Solution Architect, Business IT Integration, GUCC, IEEE, Community Lead, Project Management" />
         <link rel="canonical" href="https://srtanveer.dev/contact" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/contact" />
-        <meta property="og:title" content="Contact - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
-        <meta property="og:description" content="Get in touch with an Aspiring Project Manager | IT Sales | Community Lead for collaborations, projects, and professional inquiries." />
+        <meta property="og:title" content="Contact - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="og:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/contact" />
-        <meta property="twitter:title" content="Contact - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
-        <meta property="twitter:description" content="Get in touch with an Aspiring Project Manager | IT Sales | Community Lead for collaborations, projects, and professional inquiries." />
+        <meta property="twitter:title" content="Contact - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="twitter:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 

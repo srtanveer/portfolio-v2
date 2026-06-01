@@ -192,21 +192,21 @@ ${personalInfo.name}`;
   return (
     <>
       <Helmet>
-        <title>Cover Letter Generator - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead</title>
-        <meta name="description" content="Generate personalized cover letters with background tailored for MD. Showaib Rahman Tanveer - Aspiring Project Manager | IT Sales | Community Lead." />
-        <meta name="keywords" content="Cover Letter Generator, AI Cover Letter, Job Application, Aspiring Project Manager, IT Sales, Community Lead, SRTANVEER" />
+        <title>Cover Letter Generator - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management</title>
+        <meta name="description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta name="keywords" content="Solution Architect, Business IT Integration, GUCC, IEEE, Community Lead, Project Management" />
         <link rel="canonical" href="https://srtanveer.dev/cover-letter-generator" />
         
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://srtanveer.dev/cover-letter-generator" />
-        <meta property="og:title" content="Cover Letter Generator - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
-        <meta property="og:description" content="Generate personalized cover letters tailored for an Aspiring Project Manager | IT Sales | Community Lead." />
+        <meta property="og:title" content="Cover Letter Generator - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="og:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/cover-letter-generator" />
-        <meta property="twitter:title" content="Cover Letter Generator - MD. Showaib Rahman Tanveer | Aspiring Project Manager | IT Sales | Community Lead" />
-        <meta property="twitter:description" content="Generate personalized cover letters tailored for an Aspiring Project Manager | IT Sales | Community Lead." />
+        <meta property="twitter:title" content="Cover Letter Generator - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="twitter:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/OG-Image.webp" />
       </Helmet>
 

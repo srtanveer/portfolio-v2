@@ -5,23 +5,23 @@ function BlogPost_DataRunsLives() {
   return (
     <>
       <Helmet>
-        <title>Why Information and Data Quietly Run Our Lives—and Our Businesses - MD. Showaib Rahman Tanveer</title>
-        <meta name="description" content="Data isn't just about numbers—it's about making better choices. Discover how information quietly shapes our daily decisions and business success." />
-        <meta name="keywords" content="Data, Information, Business Intelligence, Decision Making, Data-Driven, Business Strategy, Data Analytics, Customer Insights" />
+        <title>Why Information and Data Quietly Run Our Lives—and Our Businesses - MD. Showaib Rahman Tanveer | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management</title>
+        <meta name="description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta name="keywords" content="Solution Architect, Business IT Integration, GUCC, IEEE, Community Lead, Project Management" />
         <link rel="canonical" href="https://srtanveer.dev/blog/data-runs-our-lives" />
         
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://srtanveer.dev/blog/data-runs-our-lives" />
-        <meta property="og:title" content="Why Information and Data Quietly Run Our Lives—and Our Businesses" />
-        <meta property="og:description" content="Data isn't just about numbers—it's about making better choices. Discover how information quietly shapes our daily decisions and business success." />
+        <meta property="og:title" content="Why Information and Data Quietly Run Our Lives—and Our Businesses | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="og:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="og:image" content="https://srtanveer.dev/assets/images/Blog Assets/Blog 2/blog21.webp" />
         <meta property="article:published_time" content="2026-01-31" />
         <meta property="article:author" content="MD. Showaib Rahman Tanveer" />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://srtanveer.dev/blog/data-runs-our-lives" />
-        <meta property="twitter:title" content="Why Information and Data Quietly Run Our Lives—and Our Businesses" />
-        <meta property="twitter:description" content="Data isn't just about numbers—it's about making better choices. Discover how information quietly shapes our daily decisions and business success." />
+        <meta property="twitter:title" content="Why Information and Data Quietly Run Our Lives—and Our Businesses | Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
+        <meta property="twitter:description" content="Solution Architect | Business IT Integration | GUCC | IEEE | Community Lead | Project Management" />
         <meta property="twitter:image" content="https://srtanveer.dev/assets/images/Blog Assets/Blog 2/blog21.webp" />
       </Helmet>
 
