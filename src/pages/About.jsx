@@ -32,14 +32,10 @@ function About() {
             I completed my 𝗕.𝗦𝗰. 𝗶𝗻 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 𝗮𝗻𝗱 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 from 𝗚𝗿𝗲𝗲𝗻 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 𝗼𝗳 𝗕𝗮𝗻𝗴𝗹𝗮𝗱𝗲𝘀𝗵 (𝗚𝗨𝗕).
           </p>
           <p>
-<<<<<<< HEAD
-            Currently, I am working as a <b>Junior Executive (Solution Architect) at Biometrics.BD Limited,</b> contributing to IT solutions, client coordination, and business operations. Alongside this, I'm serving as Public Relations Coordinator of IEEE CS BDC Graduate Student Member Forum (GSMF) & I served as the President of the Green University Computer Club (GUCC), leading team coordination and organizing large-scale tech events.
-=======
-            Currently, I work as a 𝗝𝘂𝗻𝗶𝗼𝗿 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝘃𝗲 (𝗜𝗧) in the 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗗𝗲𝗽𝗮𝗿𝘁𝗺𝗲𝗻𝘁 at 𝗕𝗶𝗼𝗺𝗲𝘁𝗿𝗶𝗰𝘀.𝗕𝗗 𝗟𝗶𝗺𝗶𝘁𝗲𝗱, contributing to IT operations, client coordination, and project execution. And also I served as the 𝗣𝗿𝗲𝘀𝗶𝗱𝗲𝗻𝘁 of the 𝗚𝗿𝗲𝗲𝗻 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗖𝗹𝘂𝗯 (𝗚𝗨𝗖𝗖), leading team coordination and organizing impactful tech events.
->>>>>>> f54224b3e8ea34e127c2d7caee1fd45e14b4ca3a
+            Currently, I am working as a 𝗝𝘂𝗻𝗶𝗼𝗿 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝘃𝗲 (𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁) 𝗮𝘁 𝗕𝗶𝗼𝗺𝗲𝘁𝗿𝗶𝗰𝘀.𝗕𝗗 𝗟𝗶𝗺𝗶𝘁𝗲𝗱, contributing to IT solutions, client coordination, and business operations. Alongside this, I'm serving as 𝗣𝘂𝗯𝗹𝗶𝗰 𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝘀 𝗖𝗼𝗼𝗿𝗱𝗶𝗻𝗮𝘁𝗼𝗿 𝗼𝗳 𝗜𝗘𝗘𝗘 𝗖𝗦 𝗕𝗗𝗖 𝗚𝗿𝗮𝗱𝘂𝗮𝘁𝗲 𝗦𝘁𝘂𝗱𝗲𝗻𝘁 𝗠𝗲𝗺𝗯𝗲𝗿 𝗙𝗼𝗿𝘂𝗺 (𝗚𝗦𝗠𝗙) & I served as the 𝗣𝗿𝗲𝘀𝗶𝗱𝗲𝗻𝘁 𝗼𝗳 𝘁𝗵𝗲 𝗚𝗿𝗲𝗲𝗻 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗖𝗹𝘂𝗯 (𝗚𝗨𝗖𝗖), leading team coordination and organizing large-scale tech events.
           </p>
           <p>
-            I’m focused on growing in 𝗽𝗿𝗼𝗷𝗲𝗰𝘁 𝗺𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 and 𝘁𝗲𝗰𝗵-𝗱𝗿𝗶𝘃𝗲𝗻 𝗿𝗼𝗹𝗲𝘀.
+            I aim to leverage my technical background and leadership experience to deliver impactful solutions and grow in project management and tech-driven roles.
           </p>
         </section>
 
